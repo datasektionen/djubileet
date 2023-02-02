@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './Logga.svg';
 import './App.css';
 
 function App() {
@@ -7,18 +7,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <p className="djubdot">
+          dJubileet, loading...
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Scroll down to play!
       </header>
+      <iframe src="https://funhtml5games.com?embed=spaceinvaders" className="game" scrolling="no"></iframe>
     </div>
   );
 }
