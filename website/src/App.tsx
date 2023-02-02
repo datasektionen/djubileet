@@ -10,7 +10,9 @@ function App() {
         <p className="djubdot">
           dJubileet, loading...
         </p>
+        Scroll down to play!
       </header>
+      <iframe src="https://funhtml5games.com?embed=spaceinvaders" className="game" scrolling="no"></iframe>
     </div>
   );
 }

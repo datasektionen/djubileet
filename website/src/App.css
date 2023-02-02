@@ -49,3 +49,9 @@
   50% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+.game{
+  width: 800px;
+  height: 550px;
+  border: none;
+}
