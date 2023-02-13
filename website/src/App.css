@@ -3,15 +3,12 @@
   background-image: url("./img/bg1.png");
   justify-content: center;
   overflow-x: hidden;
-  min-height: 1052px;
-  overflow-y: scroll;
 }
 
 .App-header {
-  min-height: 0vh;
+  min-height: 1vh;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   font-size: xx-large;
   color: white;

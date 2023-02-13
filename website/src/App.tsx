@@ -16,26 +16,26 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="topnav">
+          {/*<div className="topnav">
           <a href="/">Home</a>
           <a href="/linktree">Social media</a>
           <a href="/about">About</a>
-        </div> 
+        </div> */}
         <p>dJubileet 2023</p>
       </header>
 
       <img src={logo} className="App-logo" alt="logo"/>
-      {/* Inaktiverar timern pga tidzonproblem
+      {/* Inaktiverar timern pga tidzonproblem*/}
      <div className="countdown">
       <CountdownTimer targetDate={DATUM}/>
-      </div> */}
+      </div>
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Schema />}/>
-        <Route path="/linktree" element={<Linky />}/>
-        <Route path="/about" element={<About />}/>
       </Routes>
     </BrowserRouter>
+        <Schema />
+        <Linky/>
+        <About/>
     </div>
   );
 }
