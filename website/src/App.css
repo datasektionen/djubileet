@@ -33,7 +33,7 @@
 
 .App-schedule {
   padding: 20px;
-  width: 400px;
+  width: 600px;
   height: auto; 
   justify-content: center;
   text-decoration: double;
@@ -41,7 +41,7 @@
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   border-collapse: separate;
   border-spacing: 300px;
   font-family: "Lato";
@@ -50,6 +50,7 @@
   border-radius: 35px;
   background-color: rgb(255,255,255,.1);
   backdrop-filter: blur(4px);
+  transition-duration: 0.4s;
 }
 
 
@@ -65,7 +66,7 @@
   justify-content: center;
   text-decoration: double;
   text-align: center;
-  margin-top: 2px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
@@ -78,6 +79,8 @@
   background-color: rgb(255,255,255,.1);
   backdrop-filter: blur(4px);
   line-height: 0.7;
+  transition-duration: 0.4s;
+
 }
 
 .App-about p {  
@@ -151,45 +154,60 @@
   color: black;
 }
 
+.number {
+  color: white;
+  font-size: 40px;
+  border:#61dafc;
+  line-height: 5px;
+}
+
+.textdate {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border:#61dafc;
+  text-transform: uppercase;
+}
+
+.time {
+line-height: 0.5;
+margin-left: auto;
+margin-right: auto;
+border-collapse: separate;
+text-align: center;
+border:#61dafc;
+width: 400px;
+font-weight: bold;
+padding-bottom: 50px;
+}
+
 /* Add a color to the active/current link */
 .topnav a.active {
   text-decoration: underline;
 }
 
-
-.show-counter .countdown-link {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 40px;
-  text-decoration: none;
-  color: white;
-}
-
-.show-counter .countdown {
-  line-height: 1.25rem;
-  padding: 4rem 1.25rem 0 1.25rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.show-counter .countdown > p {
-  margin: 0px;
-}
-
-.show-counter .countdown > span {
-  text-transform: uppercase;
-  font-size: 20px;
-  line-height: 4rem;
-}
-
 @media screen and (max-width: 480px) {
-  .schema {
+  .App-schedule {
     width: 250px;
   }
-  .show-counter {
-    font-size: small;
+
+  .App-schedule tr {
+    font-size: 18px;
+  }
+
+  .App-about h1 {
+    font-size: 30px;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+  .textdate {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .time {
     width: 250px;
   }
 
@@ -198,12 +216,29 @@
   }
 
   .App-about p {
-    font-size: medium;
+    font-size: 17px;
   }
 
   .App-about h1 {
-    font-size: large;
+    font-size: 30px;
   }
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+  .App-about {
+    width: 400px;
+  }
+  .App-schedule {
+    width: 400px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .App-about {
+    width: 400px;
+  }
+  .App-schedule {
+    width: 400px;
+  }
+}

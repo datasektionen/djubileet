@@ -4,15 +4,22 @@ import DateTimeDisplay from './DateTimeDisplay';
 
   const ShowCounter = ({ days, hours, minutes, seconds }) => {
     return (
-      <div className="show-counter">
-        <a className="countdown-link">
-          <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 3} />
-          <p>:</p>
-          <DateTimeDisplay value={hours} type={'Hours'} isDanger={false} />
-          <p>:</p>
-          <DateTimeDisplay value={minutes} type={'Mins'} isDanger={false} />
-          <p>:</p>
-          <DateTimeDisplay value={seconds} type={'Seconds'} isDanger={false} />
+      <div>
+        <a>
+          <table className="time">
+            <tr>
+              <td className="number"><DateTimeDisplay value={days}/></td>
+              <td className="number"><DateTimeDisplay value={hours}/></td>
+              <td className="number"><DateTimeDisplay value={minutes}/></td>
+              <td className="number"><DateTimeDisplay value={seconds}/></td>
+            </tr>
+            <tr>
+              <td className="textdate">Days</td>
+              <td className="textdate">Hours</td>
+              <td className="textdate">Minutes</td>
+              <td className="textdate">Seconds</td>
+            </tr>
+          </table>
         </a>
       </div>
     );
