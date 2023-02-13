@@ -8,7 +8,8 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
 function Linky() {
   return (
-    <div>
+    <div className="links">
+      <h1>Social Media</h1>
       <a href="https://www.facebook.com/dJubileet" target="_blank"><button className="button1">Facebook</button></a>
       <a href="https://www.instagram.com/dJubileet" target="_blank"><button className="button1">Instagram </button></a>
       <a href="https://www.tiktok.com/@djubileet" target="_blank"><button className="button1">TikTok</button></a>

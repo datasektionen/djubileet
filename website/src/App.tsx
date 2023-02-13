@@ -35,6 +35,7 @@ function App() {
         <Schema />
         <Linky/>
         <About/>
+        <footer className="App-footer"></footer>
     </div>
   );
 }
