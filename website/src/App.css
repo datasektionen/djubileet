@@ -110,11 +110,15 @@
   }
 }
 
-.djubdot{
-  font-size: xx-large;
-  font-family: "Lato", "Courier New", monospace;
-  animation: blink infinite 2s linear;
+.loadscreen {
+  color: white;
+  font-family: Consolas, Courier, monospace;
+  font-size: 50px;
+  text-shadow: 0px 0px 15px plum;
+  height: 100%;
+  animation: blink infinite 4s linear;
 }
+
 @keyframes blink {
   0% { opacity: 0; }
   50% { opacity: 1; }
@@ -159,6 +163,7 @@
   font-size: 40px;
   border:#61dafc;
   line-height: 5px;
+  font-weight: bolder;
 }
 
 .textdate {
@@ -177,8 +182,8 @@ border-collapse: separate;
 text-align: center;
 border:#61dafc;
 width: 400px;
-font-weight: bold;
 padding-bottom: 50px;
+font-family: "Lato";
 }
 
 /* Add a color to the active/current link */
@@ -223,6 +228,10 @@ padding-bottom: 50px;
     font-size: 30px;
   }
 
+  .loadscreen {
+    font-size: 30px;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -241,4 +250,6 @@ padding-bottom: 50px;
   .App-schedule {
     width: 400px;
   }
+
 }
+
