@@ -4,9 +4,8 @@ import './App.css';
 const Schema = () => {
     return (
       <div className="App-schedule">
+        <h1>Schema</h1>
           <table className="center">
-            <tr> 
-              <th>Schema</th></tr>
               <tr className="row">29/4 <br></br> Halvårsfesten</tr>
               <tr className="row">25/9 <br></br>dJubileumsfirandet börjar</tr>
               <tr className="row">26/9 <br></br>TBA</tr>

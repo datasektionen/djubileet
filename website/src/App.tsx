@@ -9,7 +9,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Bilder from './Bilder';
 
 function App() {
-  //Tidzonen är fel men jag orkar inte fixa det just niu 
+  //Tidzonen är fel, måste åtgärdas innan den kan publicerass 
   const DATUM = new Date("2023-09-25");
   const NOW_IN_MS = new Date().getTime();
   const coundowndate = DATUM;
@@ -25,9 +25,10 @@ function App() {
       </header>
 
       <img src={logo} className="App-logo" alt="logo"/>
-      <div className="countdown">
+      {/* Inaktiverar timern pga tidzonproblem
+     <div className="countdown">
       <CountdownTimer targetDate={DATUM}/>
-      </div>
+      </div> */}
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Schema />}/>
