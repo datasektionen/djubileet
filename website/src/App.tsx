@@ -9,7 +9,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Bilder from './Bilder';
 
 function App() {
-  const DATUM = new Date("2023-09-25");
+  const DATUM = new Date("2023-09-24T23:00:00Z");
   const NOW_IN_MS = new Date().getTime();
   const coundowndate = DATUM;
   return (
