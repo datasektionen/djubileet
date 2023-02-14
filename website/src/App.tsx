@@ -16,14 +16,14 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-          {/*<div className="topnav">
+        {/*<header className="App-header">
+          <div className="topnav">
           <a href="/">Home</a>
           <a href="/linktree">Social media</a>
           <a href="/about">About</a>
-        </div> */}
+        </div>
     <p className="loadscreen">dJubileet 2023</p>      
-    </header>
+    </header>*/}
 
         <div className='wrap'>
 
@@ -31,6 +31,7 @@ function App() {
             {/*<iframe id="scaled-frame" src="animatedLogo/AnimatedLogo.html"></iframe> */} {/* Utan BG */}
         </div>
 
+        <p className="bday">Konglig Datasektionen 40 år</p>
      <div>
       <CountdownTimer targetDate={DATUM}/>
       </div>
@@ -38,7 +39,8 @@ function App() {
       <div id="about"><About/></div>
       <div id="linktree"><Linky/></div>
       <footer className="App-footer">
-        <p>Contact: <a href="mailto:info@djubileet.se" className="App-link">marskalk@djubileet.se</a></p>
+        <p>Contact: <a href="mailto:marskalk@djubileet.se" className="App-link">marskalk@djubileet.se</a></p>
+        <p className="name">Created by: FIPL Consulting</p>
         </footer>
     </div>
   );
