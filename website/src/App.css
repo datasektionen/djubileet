@@ -1,6 +1,23 @@
 .App {
   text-align: center;
-  background-image: url("bg1.png");
+  background-image: url("./img/bg1.png");
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.App-header {
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: xx-large;
+  color: white;
+  font-family:"Gill Sans";
+}
+
+.App-footer {
+  background-image: none;
+  margin: 100px;
 }
 
 .App-logo {
@@ -14,16 +31,67 @@
   }
 }
 
-.App-header {
-  background-image: none;
-  background-size: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.App-schedule {
+  padding: 20px;
+  width: 600px;
+  height: auto; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-decoration: double;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-collapse: separate;
+  border-spacing: 300px;
+  font-family:"Gill Sans";
   color: white;
+  border-radius: 35px;
+  background-color: rgb(255,255,255,.1);
+  backdrop-filter: blur(4px);
+  transition-duration: 0.4s;
+}
+
+
+.App-schedule tr {
+  padding: 20px;
+  font-size: x-large; 
+}
+
+.App-about {
+  padding: 20px;
+  width: 600px;
+  height: auto; 
+  justify-content: center;
+  text-decoration: double;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-collapse: separate;
+  border-spacing: 300px;
+  font-family:"Gill Sans";
+  color: white;
+  border-radius: 35px;
+  background-color: rgb(255,255,255,.1);
+  backdrop-filter: blur(4px);
+  line-height: 0.7;
+  transition-duration: 0.4s;
+
+}
+
+.App-about p {  
+  font-size: 20px;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate; 
+  border-spacing: 1em;
 }
 
 .App-link {
@@ -39,19 +107,146 @@
   }
 }
 
-.djubdot{
-  font-size: xx-large;
-  font-family: "Lucida Console", "Courier New", monospace;
-  animation: blink infinite 2s linear;
+.loadscreen {
+  color: white;
+  font-family: Consolas, Courier, monospace;
+  font-size: 50px;
+  text-shadow: 0px 0px 15px plum;
+  height: 100%;
+  animation: blink infinite 4s linear;
 }
+
 @keyframes blink {
   0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; }
 }
 
-.game{
-  width: 800px;
-  height: 550px;
-  border: none;
+.style {
+  color: black;
+  font-size: xx-large;
+  overflow-x: hidden;
+  justify-content: center;
+  text-align: center;
 }
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(0,0,0,.3);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:"Gill Sans";
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.number {
+  color: white;
+  font-size: 40px;
+  border:#61dafc;
+  line-height: 5px;
+  font-weight: bolder;
+}
+
+.textdate {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border:#61dafc;
+  text-transform: uppercase;
+}
+
+.time {
+line-height: 0.5;
+margin-left: auto;
+margin-right: auto;
+border-collapse: separate;
+text-align: center;
+border:#61dafc;
+width: 400px;
+padding-bottom: 50px;
+font-family:"Gill Sans";
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .App-schedule {
+    width: 250px;
+  }
+
+  .App-schedule tr {
+    font-size: 20px;
+  }
+
+  .App-about h1 {
+    font-size: 30px;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+  .textdate {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .time {
+    width: 250px;
+  }
+
+  .App-about {
+    width: 250px;
+  }
+
+  .App-about p {
+    font-size: 17px;
+  }
+
+  .App-about h1 {
+    font-size: 30px;
+  }
+
+  .loadscreen {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .App-about {
+    width: 400px;
+  }
+  .App-schedule {
+    width: 400px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .App-about {
+    width: 400px;
+  }
+  .App-schedule {
+    width: 400px;
+  }
+
+}
+
