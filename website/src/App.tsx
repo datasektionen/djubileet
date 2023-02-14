@@ -31,8 +31,7 @@ function App() {
       <div id="about"><About/></div>
       <div id="linktree"><Linky/></div>
       <footer className="App-footer">
-        <p>Contact: <a href="mailto:info@djubileet.se" className="App-link">info@djubileet.se</a></p>
-        <p className='namn'>Created by Kristin Mickols</p>
+        <p>Contact: <a href="mailto:info@djubileet.se" className="App-link">marskalk@djubileet.se</a></p>
         </footer>
     </div>
   );

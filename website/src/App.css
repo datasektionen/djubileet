@@ -13,7 +13,7 @@
   justify-content: center;
   font-size: 50px;
   color: white;
-  font-family:"Gill Sans";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-top: 30px;
 }
 
@@ -21,7 +21,7 @@
   background-image: none;
   margin: 50px;
   color: white;
-  font-family: "Gill Sans";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -49,12 +49,13 @@
   margin-bottom: 30px;
   border-collapse: separate;
   border-spacing: 300px;
-  font-family:"Gill Sans";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   border-radius: 35px;
   background-color: rgb(255,255,255,.1);
   backdrop-filter: blur(4px);
   transition-duration: 0.4s;
+  line-height: 1.5;
 }
 
 
@@ -62,13 +63,13 @@
   padding: 20px;
   font-size: 24px; 
   color: rgb(255,255,255);
-
+  font-weight: 450;
 }
 
 .App-schedule a {
   color: rgb(255,255,255);
   text-decoration: none;
-
+  font-weight: 450;
 }
 
 .App-schedule a:hover {
@@ -90,7 +91,7 @@
   margin-bottom: 30px;
   border-collapse: separate;
   border-spacing: 300px;
-  font-family:"Gill Sans";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   border-radius: 35px;
   background-color: rgb(255,255,255,.1);
@@ -101,7 +102,7 @@
 }
 
 .App-about p {  
-  font-size: 22px;
+  font-size: 20px;
   padding: 7px;
   line-height: 1.5;
 
@@ -179,7 +180,7 @@ text-align: center;
 border:#61dafc;
 width: 400px;
 padding-bottom: 50px;
-font-family:"Gill Sans";
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -275,3 +276,4 @@ font-family:"Gill Sans";
 .main {
   margin-left: 200px; /* Same as the width of the sidenav */
 } 
+
