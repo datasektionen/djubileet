@@ -12,6 +12,8 @@ function App() {
   const DATUM = new Date("2023-09-24T23:00:00Z");
   const NOW_IN_MS = new Date().getTime();
   const coundowndate = DATUM;
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -22,8 +24,13 @@ function App() {
         </div> */}
     <p className="loadscreen">dJubileet 2023</p>      
     </header>
-      <img src={logo} className="App-logo" alt="logo"/>
-  
+
+        <div className='wrap'>
+
+            <iframe id="scaled-frame" src="animatedWholeLogo/AnimatedWholeLogo.html"></iframe> {/* Med BG */}
+            {/*<iframe id="scaled-frame" src="animatedLogo/AnimatedLogo.html"></iframe> */} {/* Utan BG */}
+        </div>
+
      <div>
       <CountdownTimer targetDate={DATUM}/>
       </div>
