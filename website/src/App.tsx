@@ -23,7 +23,7 @@ function App() {
     <p className="loadscreen">dJubileet 2023</p>      
     </header>
       <img src={logo} className="App-logo" alt="logo"/>
-  
+        <p className="bday">Konglig Datasektionen 40 år</p>
      <div>
       <CountdownTimer targetDate={DATUM}/>
       </div>
@@ -31,7 +31,8 @@ function App() {
       <div id="about"><About/></div>
       <div id="linktree"><Linky/></div>
       <footer className="App-footer">
-        <p>Contact: <a href="mailto:info@djubileet.se" className="App-link">marskalk@djubileet.se</a></p>
+        <p>Contact: <a href="mailto:marskalk@djubileet.se" className="App-link">marskalk@djubileet.se</a></p>
+        <p className="name">Created by: FIPL Consulting</p>
         </footer>
     </div>
   );
