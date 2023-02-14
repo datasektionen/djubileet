@@ -6,13 +6,13 @@ const Schema = () => {
       <div className="App-schedule">
         <h1>Event</h1>
           <table className="center">
-              <tr className="row">29/4 <br></br>Halvårsfesten</tr>
-              <tr className="row">25/9 – 29/9<br></br>TBA</tr>
-              <tr className="row"><a href="https://dsekt.se/banquette">30/9 <br></br>Banquette</a></tr>
-              <tr className="row">2/10 – 3/10 <br></br>TBA</tr>
-              <tr className="row">4/10 <br></br><a>XXL-pub feat. DKM</a></tr>
-              <tr className="row">5/10 – 6/10 <br></br>TBA</tr>
-              <tr className="row"><a href="https://dsekt.se/slutfest">7/10 <br></br>Slutfesten</a></tr>
+              <tr className="row"><u>29/4</u><br></br>Halvårsfesten</tr>
+              <tr className="row"><u>25/9</u> – <u>29/9</u><br></br>TBA</tr>
+              <tr className="row"><a href="https://dsekt.se/banquette"><u>30/9</u><br></br>Banquette</a></tr>
+              <tr className="row"><u>2/10</u> – <u>3/10</u> <br></br>TBA</tr>
+              <tr className="row"><u>4/10</u> <br></br>XXL-pub feat. DKM</tr>
+              <tr className="row"><u>5/10</u> – <u>6/10</u> <br></br>TBA</tr>
+              <tr className="row"><a href="https://dsekt.se/slutfest"><u>7/10</u><br></br>Slutfesten</a></tr>
           </table></div>
     );
   };
