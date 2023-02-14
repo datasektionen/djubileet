@@ -20,22 +20,20 @@ function App() {
           <a href="/linktree">Social media</a>
           <a href="/about">About</a>
         </div> */}
-        <p>dJubileet 2023</p>
-      </header>
-
+    <p className="loadscreen">dJubileet 2023</p>      
+    </header>
       <img src={logo} className="App-logo" alt="logo"/>
+  
      <div>
-      <p className="loadscreen">Loading...</p>
       <CountdownTimer targetDate={DATUM}/>
       </div>
-      <BrowserRouter>
-      <Routes>
-      </Routes>
-    </BrowserRouter>
-        <Schema />
-        <Linky/>
-        <About/>
-        <footer className="App-footer"></footer>
+      <div id="schema"><Schema/></div>
+      <div id="about"><About/></div>
+      <div id="linktree"><Linky/></div>
+      <footer className="App-footer">
+        <p>Contact: <a href="mailto:info@djubileet.se" className="App-link">info@djubileet.se</a></p>
+        <p className='namn'>Created by Kristin Mickols</p>
+        </footer>
     </div>
   );
 }
