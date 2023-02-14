@@ -4,14 +4,15 @@ import './App.css';
 const Schema = () => {
     return (
       <div className="App-schedule">
-        <h1>Schema</h1>
+        <h1>Event</h1>
           <table className="center">
-              <tr className="row">29/4 <br></br> Halvårsfesten</tr>
-              <tr className="row">25/9 <br></br>dJubileumsfirandet börjar</tr>
-              <tr className="row">26/9 <br></br>TBA</tr>
-              <tr className="row">30/9 <br></br>Banquette</tr>
-              <tr className="row">4/10 <br></br>XXL pub</tr>
-              <tr className="row">7/10 <br></br>Slutfesten</tr>
+              <tr className="row">29/4 <br></br>Halvårsfesten</tr>
+              <tr className="row">25/9 – 29/9<br></br>TBA</tr>
+              <tr className="row"><a href="https://dsekt.se/banquette">30/9 <br></br>Banquette</a></tr>
+              <tr className="row">2/10 – 3/10 <br></br>TBA</tr>
+              <tr className="row">4/10 <br></br><a>XXL-pub feat. DKM</a></tr>
+              <tr className="row">5/10 – 6/10 <br></br>TBA</tr>
+              <tr className="row"><a href="https://dsekt.se/slutfest">7/10 <br></br>Slutfesten</a></tr>
           </table></div>
     );
   };
