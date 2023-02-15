@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './img/Logga.svg';
+import animatedLogo from './img/AnimeradLoggaDelta.gif'
 import './App.css';
 import CountdownTimer from './CountdownTimer';
 import Schema from './Schema';
@@ -16,19 +17,17 @@ function App() {
 
   return (
     <div className="App">
-        {/*<header className="App-header">
-          <div className="topnav">
+        <header className="App-header">
+            {/*<div className="topnav">
           <a href="/">Home</a>
           <a href="/linktree">Social media</a>
           <a href="/about">About</a>
-        </div>
-    <p className="loadscreen">dJubileet 2023</p>      
-    </header>*/}
+        </div>*/}
+    <p className="loadscreen">dJubileet 2023</p>
+    </header>
 
-        <div className='wrap'>
-
-            <iframe id="scaled-frame" src="animatedWholeLogo/AnimatedWholeLogo.html"></iframe> {/* Med BG */}
-            {/*<iframe id="scaled-frame" src="animatedLogo/AnimatedLogo.html"></iframe> */} {/* Utan BG */}
+        <div className='img-wrap'>
+            <img src={animatedLogo} alt={"dJubileet Logo"} width={500}/>
         </div>
 
         <p className="bday">Konglig Datasektionen 40 år</p>

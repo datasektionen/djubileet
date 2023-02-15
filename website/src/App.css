@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Agency';
+  src: local('Agency'), url(./fonts/AgencyFB.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
 
 .App {
   text-align: center;
@@ -46,26 +52,56 @@
 #scaled-frame {
   width: 2000px;
   height: 2000px;
-  border: 0px;
-  margin-right: -1400px;
-  margin-bottom: -1400px;
+  border: 0;
+  margin-right: -1500px;
+  margin-top: -50px;
+  margin-bottom: -1700px;
 }
 
 #scaled-frame {
-  zoom: 0.3;
-  -moz-transform: scale(0.3);
+  zoom: 1;
+  -moz-transform: scale(0.25);
   -moz-transform-origin: 0 0;
-  -o-transform: scale(0.3);
+  -o-transform: scale(0.25);
   -o-transform-origin: 0 0;
-  -webkit-transform: scale(0.3);
+  -webkit-transform: scale(0.25);
   -webkit-transform-origin: 0 0;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+.img-wrap {
+  text-align: initial;
+  position: relative;
+  height: 320px;
+}
+.img-wrap img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 576px) {
   #scaled-frame {
-    zoom: 1;
+
+    margin-right: -1600px;
+    margin-bottom: -1750px;
+    -moz-transform: scale(0.2);
+    -o-transform: scale(0.2);
+    -webkit-transform: scale(0.2);
   }
 }
+
+@media only screen and (max-width: 480px) {
+  #scaled-frame {
+
+    margin-right: -1700px;
+    margin-bottom: -1800px;
+    -moz-transform: scale(0.15);
+    -o-transform: scale(0.15);
+    -webkit-transform: scale(0.15);
+  }
+}
+
+
 
 .App-schedule {
   padding: 20px;
@@ -158,9 +194,11 @@
 
 .loadscreen {
   color: white;
-  font-family: Consolas, Courier, monospace;
-  font-size: 50px;
+  font-family: Agency;
+  font-size: 60px;
   text-shadow: 0px 0px 15px plum;
+  margin-top: 0px;
+  margin-bottom: 0px;
   height: 100%;
   animation: blink infinite 4s linear;
 }
@@ -260,7 +298,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
 
   .loadscreen {
-    font-size: 30px;
+    font-size: 40px;
   }
   .App-header {
     font-size: 40px;
