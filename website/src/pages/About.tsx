@@ -3,7 +3,7 @@ import React from "react";
 function About() {
     return (
         <div className="App-about">
-            <h1>About</h1>
+            <h1>Om dJubileet</h1>
             <h3>Kan man lägga en miljon på studentevent på data? </h3>
             <p> Detta är något som dJubileet ämnar att svara på!<br></br>
             Året var 1983 och på KTH hade en ny utbildning skapats. De första datalogerna sökte likasinnade och gemenskap, 
