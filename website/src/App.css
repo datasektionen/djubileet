@@ -5,9 +5,45 @@
                             'embedded-opentype', and 'svg' */
 }
 
-.App {
+.landing-screen {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: column;
   text-align: center;
-  background-image: url("./img/bg1.png");
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/bg2k.jpg");
+  background-size: cover;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.filler {
+  flex-grow:1;
+}
+
+.landing-logo {
+  flex-grow:1;
+  min-height: 0;
+  max-height: 1200px;
+  max-width: 90%;
+
+  width: auto;
+}
+@media screen and (orientation:portrait) {
+  .landing-logo {
+    flex-grow: 0;
+    max-width: 90%;
+  }
+}
+
+.main {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #111111;
+  background-size: cover;
   justify-content: center;
   overflow-x: hidden;
 }
@@ -70,8 +106,6 @@
 
 .img-wrap {
   text-align: initial;
-  position: relative;
-  height: 320px;
 }
 .img-wrap img {
   position: absolute;
@@ -119,7 +153,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   border-radius: 35px;
-  background-color: rgb(255,255,255,.1);
+  background-color: rgba(255,255,255,.1);
   backdrop-filter: blur(4px);
   transition-duration: 0.4s;
   line-height: 1.5;
@@ -161,7 +195,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   border-radius: 35px;
-  background-color: rgb(255,255,255,.1);
+  background-color: rgba(255,255,255,.1);
   backdrop-filter: blur(4px);
   line-height: 0.7;
   transition-duration: 0.4s;
@@ -180,7 +214,7 @@
 }
 
 .name {
-  color: rgb(255,255,255,.5);
+  color: rgba(255,255,255,.5);
 }
 
 @keyframes App-logo-spin {
@@ -226,7 +260,7 @@
 
 .number {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   border:#61dafc;
   line-height: 5px;
   font-weight: bolder;
@@ -234,7 +268,9 @@
 
 .textdate {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   border:#61dafc;
   text-transform: uppercase;
@@ -248,7 +284,7 @@ border-collapse: separate;
 text-align: center;
 border:#61dafc;
 width: 400px;
-padding-bottom: 50px;
+padding-bottom: 70px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -256,8 +292,13 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   color: white;
   font-family: Consolas, Courier, monospace;
   font-size: 50px;
+  padding: 0;
+  margin: 10px;
   text-shadow: 0px 0px 15px plum;
-  height: 100%;
+}
+
+.bday p {
+  margin: 0;
 }
 
 @media screen and (max-width: 480px) {
@@ -301,15 +342,14 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-size: 40px;
   }
   .App-header {
-    font-size: 40px;
-  }
+    font-size: 40px;}
 
   .App-footer {
     font-size: 15px;
   }
 
   .bday {
-    font-size: 20px;
+    font-size: 27px;
   }
 }
 
@@ -321,7 +361,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     width: 400px;
   }
   .bday {
-    font-size: 25px;
+    font-size: 30px;
   }
 
 }
@@ -337,11 +377,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-size: 40px;
   }
   .bday {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
-
-
 
  /* The sidenav */
  .sidenav {
@@ -356,8 +394,64 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   padding-top: 20px;
 }
 
-/* Page content */
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-} 
+@media (min-width: 2561px){
+  .bday {
+    font-size: 80px;
+  }
 
+  .number {
+    font-size: 80px;
+  }
+  .textdate {
+    font-size: 50px;
+    padding: 20px;
+  }
+}
+
+/* The sidenav */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.header{
+  display: flex;
+}
+
+.header span{
+  min-width: 400px;
+}
+
+.topnav{
+  flex: 1 1 100%;
+  flex-grow: 1;
+  padding: 16px 8px 8px 30px;
+  display: inline-block;
+  align-content: start;
+  text-align: start;
+  width: 100vw;
+}
+
+/* Style the links inside the navigation bar */
+.topnav button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav button:hover {
+  background-color: #EE2A7B;
+}
