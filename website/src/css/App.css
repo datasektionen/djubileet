@@ -241,7 +241,7 @@
   min-height: 5vh;
   max-height: 5vh;
   filter: invert(100%);
-  animation: blink infinite 4s linear;
+  animation: blink infinite 4s ease-in-out;
 }
 
 @keyframes blink {
