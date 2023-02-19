@@ -1,8 +1,10 @@
 @font-face {
   font-family: 'Agency';
-  src: local('Agency'), url(./fonts/AgencyFB.ttf) format('truetype');
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
+  src: local('Agency'), url(../fonts/AgencyFB.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: local('Quicksand'), url(../fonts/Quicksand-VariableFont_wght.ttf) format('truetype');
 }
 
 .landing-screen {
@@ -12,7 +14,8 @@
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-image: url("./img/bg2k.jpg");
+  background-image: linear-gradient(to top, #1f133c, #1f133c00, #1f133c00, #1f133c00, #1f133c00),
+   url("../img/bg2k.jpg");
   background-size: cover;
   justify-content: start;
   align-items: center;
@@ -25,13 +28,20 @@
 
 .landing-logo {
   flex-grow:1;
+  padding: 30px;
   min-height: 0;
-  max-height: 1200px;
+  max-height: 1000px;
   max-width: 90%;
 
   width: auto;
 }
 @media screen and (orientation:portrait) {
+
+  .landing-screen{
+    background-image: linear-gradient(to top, #1f133c, #1f133c00, #1f133c00, #1f133c00, #1f133c00),
+    url("../img/portraitBG.jpg");
+  }
+
   .landing-logo {
     flex-grow: 0;
     max-width: 90%;
@@ -42,10 +52,17 @@
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-color: #111111;
+  background-color: #1f133c;
   background-size: cover;
   justify-content: center;
   overflow-x: hidden;
+}
+
+.title{
+  font-size: 40px;
+  font-family: Quicksand, Arial, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 5px #E83D84;
 }
 
 .App-header {
@@ -61,152 +78,143 @@
 
 .App-footer {
   background-image: none;
-  margin: 50px;
   color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', Arial, sans-serif;
   font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-#wrap {
-  width: 2000px;
-  height: 2000px;
-  padding: 0;
-  overflow: hidden;
-}
-
-#scaled-frame {
-  width: 2000px;
-  height: 2000px;
-  border: 0;
-  margin-right: -1500px;
-  margin-top: -50px;
-  margin-bottom: -1700px;
-}
-
-#scaled-frame {
-  zoom: 1;
-  -moz-transform: scale(0.25);
-  -moz-transform-origin: 0 0;
-  -o-transform: scale(0.25);
-  -o-transform-origin: 0 0;
-  -webkit-transform: scale(0.25);
-  -webkit-transform-origin: 0 0;
-}
-
-.img-wrap {
-  text-align: initial;
-}
-.img-wrap img {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-@media only screen and (max-width: 576px) {
-  #scaled-frame {
-
-    margin-right: -1600px;
-    margin-bottom: -1750px;
-    -moz-transform: scale(0.2);
-    -o-transform: scale(0.2);
-    -webkit-transform: scale(0.2);
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  #scaled-frame {
-
-    margin-right: -1700px;
-    margin-bottom: -1800px;
-    -moz-transform: scale(0.15);
-    -o-transform: scale(0.15);
-    -webkit-transform: scale(0.15);
-  }
-}
-
-
-
 .App-schedule {
   padding: 20px;
-  width: 600px;
-  height: auto; 
   justify-content: center;
   text-decoration: double;
   text-align: center;
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  border-collapse: separate;
-  border-spacing: 300px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 5px auto 30px;
+  font-family: 'Quicksand', Arial, sans-serif;
   color: white;
-  border-radius: 35px;
-  background-color: rgba(255,255,255,.1);
-  backdrop-filter: blur(4px);
-  transition-duration: 0.4s;
   line-height: 1.5;
 }
 
-
-.App-schedule tr {
-  padding: 20px;
-  font-size: 24px; 
-  color: rgb(255,255,255);
-  font-weight: 450;
+.App-schedule hr {
+  border: 1px solid #ffffff33;
+  overflow: visible;
 }
 
 .App-schedule a {
-  color: rgb(255,255,255);
   text-decoration: none;
   font-weight: 450;
+}
+
+.App-schedule a:visited {
+  color: white;
 }
 
 .App-schedule a:hover {
   color:#EE2A7B;
   font-weight: 510;
+}
 
+.event-row {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 450;
+  text-align: start;
+  transition-duration: 0.4s;
+}
+
+.event-row:hover {
+  background: linear-gradient(to right, transparent 0%, #ffffff11 50%, transparent 100%);
+}
+
+.event-row:active {
+  background: linear-gradient(to right, transparent 0%, #ffffff11 50%, transparent 100%);
+}
+
+.event-date {
+  margin: 0;
+  padding: 0 15px 0 0;
+  width: 50vw;
+  height: 100%;
+  text-align: end;
+  vertical-align: middle;
+}
+
+.event-date p {
+  padding: 0;
+  margin: 0;
+}
+
+.event-date-sub {
+  color: #E83D84bb;
+  font-size: 17px;
+}
+
+.event-info {
+  padding-left: 15px;
+  width: 50vw;
+}
+
+.event-additional-info {
+  transition-duration: 0.4s;
+  padding: 15px;
+  text-align: center;
+  font-size: 17px;
+  max-height: 100%;
+}
+
+.disabled-link {
+  pointer-events: none;
+  color: grey;
+}
+
+.disabled-link:hover {
+  color: grey;
+  fill: grey;
+}
+
+.event-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.event-info span {
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+}
+
+.event-info a {
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.event-title  {
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 3px #E83D84;
 }
 
 .App-about {
-  padding: 20px;
-  width: 600px;
-  height: auto; 
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
   justify-content: center;
   text-decoration: double;
   text-align: center;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  border-collapse: separate;
-  border-spacing: 300px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
   color: white;
-  border-radius: 35px;
-  background-color: rgba(255,255,255,.1);
-  backdrop-filter: blur(4px);
-  line-height: 0.7;
-  transition-duration: 0.4s;
-  line-height: 1;
+  line-height: 1.5;
 }
 
-.App-about p {  
+.App-about p {
   font-size: 20px;
   padding: 7px;
-  line-height: 1.5;
-
 }
 
 .App-link {
@@ -226,14 +234,12 @@
   }
 }
 
-.loadscreen {
+.arrow {
   color: white;
-  font-family: Agency;
-  font-size: 60px;
-  text-shadow: 0px 0px 15px plum;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 100%;
+  fill: white;
+  min-height: 5vh;
+  max-height: 5vh;
+  filter: invert(100%);
   animation: blink infinite 4s linear;
 }
 
@@ -263,6 +269,8 @@
   font-size: 50px;
   border:#61dafc;
   line-height: 5px;
+  font-family: Agency, Arial, sans-serif;
+  letter-spacing: 5px;
   font-weight: bolder;
 }
 
@@ -272,42 +280,46 @@
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+  letter-spacing: 3px;
+  font-family: Agency, Arial, sans-serif;
   border:#61dafc;
   text-transform: uppercase;
 }
 
 .time {
+  text-shadow: 0px 0px 15px black;
 line-height: 0.5;
 margin-left: auto;
 margin-right: auto;
 border-collapse: separate;
 text-align: center;
-border:#61dafc;
-width: 400px;
+border:#61dafc;width: 500px;
 padding-bottom: 70px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .bday {
   color: white;
-  font-family: Consolas, Courier, monospace;
+  font-family: Agency, Courier, monospace;
+  letter-spacing: 3px;
   font-size: 50px;
-  padding: 0;
-  margin: 10px;
-  text-shadow: 0px 0px 15px plum;
+  padding: 10px;margin: 10px;
+  text-shadow: 0px 0px 15px black;
 }
 
 .bday p {
   margin: 0;
 }
 
+
 @media screen and (max-width: 480px) {
-  .App-schedule {
-    width: 250px;
+
+  .event-row {
+    font-size: 17px;
   }
 
-  .App-schedule tr {
-    font-size: 20px;
+  .event-info a {
+    font-size: 15px;
   }
 
   .App-about h1 {
@@ -326,10 +338,6 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     width: 250px;
   }
 
-  .App-about {
-    width: 250px;
-  }
-
   .App-about p {
     font-size: 19px;
   }
@@ -338,9 +346,6 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-size: 30px;
   }
 
-  .loadscreen {
-    font-size: 40px;
-  }
   .App-header {
     font-size: 40px;}
 
@@ -349,35 +354,44 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
 
   .bday {
-    font-size: 27px;
+    font-size: 30px;
+  }
+
+  .landing-logo{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .number {
+    font-size: 25px;
+  }
+  .textdate {
+    font-size: 12px;
+    padding: 5px;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px){
-  .App-about {
-    width: 400px;
-  }
-  .App-schedule {
-    width: 400px;
-  }
+
   .bday {
-    font-size: 30px;
+    font-size: 40px;
+  }
+
+  .landing-logo{
+    padding: 0;
   }
 
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-  .App-about {
-    width: 400px;
-  }
-  .App-schedule {
-    width: 400px;
-  }
+
   .App-header {
     font-size: 40px;
   }
-  .bday {
-    font-size: 35px;
+
+  .landing-logo{
+    padding: 0;
   }
 }
 
@@ -436,22 +450,26 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   padding: 16px 8px 8px 30px;
   display: inline-block;
   align-content: start;
-  text-align: start;
+  text-align: center;
   width: 100vw;
 }
 
-/* Style the links inside the navigation bar */
+/* Style the buttons inside the navigation bar */
 .topnav button {
   background-color: transparent;
   border: none;
   color: #fff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
+  margin-left: 2px;
+  margin-right: 2px;
   text-decoration: none;
-  font-size: 17px;
+  font-family: Quicksand, Arial, sans-serif;;
+  font-size: 19px;
 }
 
 /* Change the color of links on hover */
 .topnav button:hover {
   background-color: #EE2A7B;
+  border-radius: 10px;
 }

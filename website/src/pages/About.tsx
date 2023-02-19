@@ -2,8 +2,8 @@ import React from "react";
 
 function About() {
     return (
-        <div className="App-about">
-            <h1>Om dJubileet</h1>
+        <div className={"App-about"}>
+            <h1 className={"title"}>Om dJubileet</h1>
             <p>
                 dJubileet händer bara var femte år, och är troligen det största eventet som händer under din tid på sektionen.</p>
             <p>För att fira alla våra underbara projekt, nämnder och medlemmar är det i höst dags att fira att Konglig Datasektionen har

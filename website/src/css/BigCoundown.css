@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     text-align: center;
-    background-image: url("./img/stars30.webp");
+    background-image: url("../img/stars30.webp");
     justify-content: center;
     overflow-x: hidden;
 }

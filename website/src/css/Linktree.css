@@ -1,20 +1,20 @@
 .button1 {
-    background-color: rgb(255,255,255,0.7); 
-    border: none;
+    background-color: transparent;
     border-radius: 15px;
-    color: black;
+    border: solid white;
+    color: white;
     display: inline-block;
     font-size: 22px;
-    margin: 5px;
-    width: 180px;
-    height: 80px;
+    margin: 10px;
+    width: 190px;
+    height: 60px;
     transition-duration: 0.4s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 .button1:hover {
-    background-color: plum;
+    background-color: #ffffff33;
     cursor: pointer;
 }
 
@@ -70,8 +70,7 @@
 }
 
 .links {
-    padding: 20px;
-    width: 600px;
+    padding: 10px;
     height: auto; 
     justify-content: center;
     text-decoration: double;
@@ -84,9 +83,6 @@
     border-spacing: 300px;
     font-weight: bold;
     color: white;
-    border-radius: 35px;
-    background-color: rgb(255,255,255,.1);
-    backdrop-filter: blur(4px);
     line-height: 0.7;
     transition-duration: 0.4s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './img/Logga.svg';
 import animatedLogo from './img/AnimeradLoggaDelta.gif'
-import './App.css';
-import CountdownTimer from './CountdownTimer';
-import Schema from './Schema';
+import './css/App.css';
+import CountdownTimer from './components/CountdownTimer';
+import Timeline from './pages/Timeline';
 import Linky from './pages/Linky';
 import About from './pages/About';
 import Home from './pages/Home';
