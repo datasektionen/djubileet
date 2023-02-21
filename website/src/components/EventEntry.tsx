@@ -32,8 +32,7 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
                 </div>
             </td>
 
-            <div hidden={!expanded} className={"event-additional-info"}>
-                {info===""?"Mer info Kommer!":info}
+            <div hidden={!expanded} className={"event-additional-info"} dangerouslySetInnerHTML={{__html: info===""?"Mer info Kommer!":info}}>
             </div>
         </div>
     );
