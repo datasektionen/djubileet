@@ -238,7 +238,8 @@
   background-color: rgba(255,255,255,0.05);
   border-radius: 35px;
   padding: 5px 0;
-  margin: 5% auto;backdrop-filter: blur(4px);
+  margin: 50px auto;
+  backdrop-filter: blur(4px);
   width: 60%;
   max-width: 1000px;
   justify-content: center;
@@ -262,7 +263,7 @@
 
 .App-about p {
   font-size: 20px;
-  padding: 10px 40px;
+  padding: 0 5%;
 }
 
 .App-link {
