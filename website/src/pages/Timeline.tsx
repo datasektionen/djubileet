@@ -20,6 +20,11 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
+                    date={"25:e - 29:e September"}
+                    title={"TBA"}
+                />
+                <hr/>
+                <EventEntry
                     date={"30:e September"}
                     title={"Banquetten"}
                     fbLink={"https://www.dsekt.se/djub-banquette-web"}
