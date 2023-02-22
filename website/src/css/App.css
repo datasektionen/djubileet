@@ -15,13 +15,14 @@
   width: 100%;
   height: 100vh;
   height: 100svh; /* include both in case svh is not supported */
-  background-image: url("../img/bg2k.jpg");
   mask-image: linear-gradient(to bottom, white 80%, transparent 100%);
   background-size: cover;
   justify-content: start;
   align-items: center;
   overflow: hidden;
 }
+
+
 
 .filler {
   flex-grow:1;
@@ -37,17 +38,30 @@
   width: auto;
 }
 @media screen and (orientation:portrait) {
-
   .landing-screen{
     background-image: url("../img/portraitBG.jpg");
   }
-
   .landing-logo {
     flex-grow: 0;
     max-width: 90%;
     max-height: 40%;
   }
 }
+
+@media screen and (orientation:landscape) and (min-width: 1921px) {
+  .landing-screen{
+    background-image: url("../img/bg2k.jpg");
+  }
+}
+
+@media screen and (orientation:landscape) and (max-width: 1920px) {
+  .landing-screen{
+    background-image: url("../img/bgFHD.jpg");
+  }
+}
+
+
+
 
 .main {
   text-align: center;
@@ -264,7 +278,7 @@
   }
 
   .event-additional-info {
-    margin: 0 5px;
+    margin: 0 5%;
   }
 }
 
