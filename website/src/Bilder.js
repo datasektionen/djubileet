@@ -1,5 +1,5 @@
 import React from "react";
-import './Bilder.css';
+import './css/Bilder.css';
 
 function Bilder() {  
 }

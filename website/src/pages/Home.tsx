@@ -1,45 +1,46 @@
 import React from 'react';
-import animatedLogo from '../img/AnimeradLoggaDelta.gif'
-import '../App.css';
-import CountdownTimer from '../CountdownTimer';
-import Schema from '../Schema';
+import animatedLogo from '../img/AnimeradLogga.gif'
+import arrow from '../img/chevron-double-up.svg'
+import '../css/App.css';
+import CountdownTimer from '../components/CountdownTimer';
+import Timeline from './Timeline';
 import Linky from './Linky';
 import About from './About';
+import NavBar from "../components/NavBar";
 
 function Home() {
   const DATUM = new Date("2023-09-24T23:00:00Z");
-  const NOW_IN_MS = new Date().getTime();
-  const coundowndate = DATUM;
 
+    return (
+        <div className={"main"}>
+            <div id={"top"} className="landing-screen">
+                <header className={"header"}>
+                    <NavBar/>
+                </header>
+                <div className={"filler"} />
+                <img className={"landing-logo"} src={animatedLogo} alt={"dJubileet Logo"}/>
 
-  return (
-    <div className="App">
-        <header className="App-header">
-            {/*<div className="topnav">
-                  <a href="/">Home</a>
-                  <a href="/linktree">Social media</a>
-                  <a href="/about">About</a>
-                </div>*/}
-            <p className="loadscreen">dJubileet 2023</p>
-        </header>
-
-        <div className='img-wrap'>
-            <img src={animatedLogo} alt={"dJubileet Logo"} width={500}/>
+                <div className="bday">
+                    <p>Konglig Datasektionens</p>
+                    <p>40-årsjubileum</p>
+                </div>
+                <div className="landing-countdown">
+                    <CountdownTimer targetDate={DATUM}/>
+                </div>
+                <div className={"filler"} />
+                <img className={"arrow"} src = {arrow} alt="My Happy SVG"/>
+            </div>
+            <div>
+                <div id="schema"><Timeline/></div>
+                <div id="about"><About/></div>
+                <div id="linktree"><Linky/></div>
+                <footer className="App-footer">
+                    <p>Kontakt: <a href="mailto:marskalk@djubileet.se" className="App-schedule-link">marskalk@djubileet.se</a></p>
+                    <p className="name">Skapad av: FIPL Consulting</p>
+                </footer>
+            </div>
         </div>
-
-        <p className="bday">Konglig Datasektionen 40 år</p>
-        <div>
-            <CountdownTimer targetDate={DATUM}/>
-        </div>
-        <div id="schema"><Schema/></div>
-        <div id="about"><About/></div>
-        <div id="linktree"><Linky/></div>
-        <footer className="App-footer">
-            <p>Kontakt: <a href="mailto:marskalk@djubileet.se" className="App-link">marskalk@djubileet.se</a></p>
-            <p className="name">Skapad av: FIPL Consulting</p>
-        </footer>
-    </div>
-  );
+    );
 }
 
 export default Home;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCountdown } from './hooks/useCountdown';
+import { useCountdown } from '../hooks/useCountdown';
 import DateTimeDisplay from './DateTimeDisplay';
 
   const ShowCounter = ({ days, hours, minutes, seconds }) => {
@@ -14,10 +14,10 @@ import DateTimeDisplay from './DateTimeDisplay';
               <td className="number"><DateTimeDisplay value={seconds}/></td>
             </tr>
             <tr>
-              <td className="textdate">Days</td>
-              <td className="textdate">Hours</td>
-              <td className="textdate">Minutes</td>
-              <td className="textdate">Seconds</td>
+              <td className="textdate">Dagar</td>
+              <td className="textdate">Timmar</td>
+              <td className="textdate">Minuter</td>
+              <td className="textdate">Sekunder</td>
             </tr>
           </table>
         </a>
