@@ -72,6 +72,12 @@
   justify-content: center;
   overflow-x: hidden;
 }
+@media screen and (orientation:portrait) {
+  .main {
+    background-size: 512px;
+  }
+
+}
 
 
 
@@ -185,7 +191,7 @@
 
 .event-date {
   margin: 0;
-  padding: 0 15px 0 0;
+  padding: 0 15px 0 5%;
   width: 50%;
   height: 100%;
   text-align: end;
@@ -385,6 +391,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
 
   .event-info a {
+    font-size: 15px;
+  }
+
+  .event-info span {
     font-size: 15px;
   }
 
