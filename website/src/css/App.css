@@ -107,7 +107,9 @@
 @media (orientation: portrait) {
 
   .App-schedule {
-    width: 100%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
 
@@ -253,7 +255,9 @@
 @media (orientation: portrait) {
 
   .App-about {
-    width: 100%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .event-additional-info {
