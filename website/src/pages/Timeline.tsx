@@ -22,7 +22,7 @@ const Timeline = () => {
                 <EventEntry
                     date={"30:e September"}
                     title={"Banquetten"}
-                    fbLink={"https://www.facebook.com/events/628294099057803"}
+                    fbLink={"https://www.dsekt.se/djub-banquette-web"}
                     timeAndPlace={"Winterviken"}
                     ticketUnreleased={true}
 
@@ -62,7 +62,7 @@ const Timeline = () => {
                 <EventEntry
                     date={"7:e Oktober"}
                     title={"Slutfesten"}
-                    fbLink={"https://www.facebook.com/events/2115230092199348"}
+                    fbLink={"https://www.dsekt.se/djub-slutfest-web"}
                     timeAndPlace={"TBA"}
                     info={"Efter att vi har uppmärksammat sektionens 40-årsdag i två hela veckor, så ser vi på slutfesten till att allting slutar med en ordentlig smäll!<br/><br/>" +
                     "dJubileets slutfest är tveklöst en av de största händelserna på året, och är ett sällsynt tillfälle både att springa på gamla kursare och att bekanta sig med sektionens yngre medlemmar.<br/><br/>" +
