@@ -394,6 +394,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-size: 15px;
   }
 
+  .event-info span {
+    font-size: 15px;
+  }
+
   .App-about h1 {
     font-size: 30px;
   }
