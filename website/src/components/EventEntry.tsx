@@ -16,19 +16,19 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
                     {title}
                 </p>
                 <div>
-                    <a className={"App-schedule-link"} href={ticketLink} target="_blank" onClick={(e) => e.stopPropagation()}  hidden={ticketLink === "" || ticketUnreleased || ticketSoldOut} >
+                    {!(ticketLink === "" || ticketUnreleased || ticketSoldOut)?<a className={"App-schedule-link"} href={ticketLink} target="_blank" onClick={(e) => e.stopPropagation()}>
                         Biljetter
-                    </a>
-                    <a className={"disabled-link"} hidden={!ticketUnreleased} >
+                    </a>:null}
+                    {ticketUnreleased?<a className={"disabled-link"} >
                         Biljetter (Kommer)
-                    </a>
-                    <a className={"disabled-link"} hidden={!ticketSoldOut} >
+                    </a>:null}
+                    {ticketSoldOut?<a className={"disabled-link"} >
                         Slutsålt
-                    </a>
-                    <span hidden={!noTicket}>Ingen biljett behövs!</span>
-                    <a className={"App-schedule-link"} href={fbLink} target="_blank" onClick={(e) => e.stopPropagation()} hidden={fbLink === ""}>
+                    </a>:null}
+                    {noTicket?(<span>Ingen biljett behövs!</span>):null}
+                    {fbLink !== ""?<a className={"App-schedule-link"} href={fbLink} target="_blank" onClick={(e) => e.stopPropagation()} hidden={fbLink === ""}>
                         Facebook
-                    </a>
+                    </a>:null}
                 </div>
             </td>
 

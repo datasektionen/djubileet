@@ -249,7 +249,7 @@
 @media (orientation: portrait) {
 
   .event-info a + a {
-    margin-bottom: 10px;
+    margin-top: 10px;
   }
 }
 
