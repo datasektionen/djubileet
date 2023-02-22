@@ -35,7 +35,7 @@ function Home() {
                 <div id="about"><About/></div>
                 <div id="linktree"><Linky/></div>
                 <footer className="App-footer">
-                    <p>Kontakt: <a href="mailto:marskalk@djubileet.se" className="App-link">marskalk@djubileet.se</a></p>
+                    <p>Kontakt: <a href="mailto:marskalk@djubileet.se" className="App-schedule-link">marskalk@djubileet.se</a></p>
                     <p className="name">Skapad av: FIPL Consulting</p>
                 </footer>
             </div>

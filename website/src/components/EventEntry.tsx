@@ -16,7 +16,7 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
                     {title}
                 </p>
                 <div>
-                    <a href={ticketLink} target="_blank" onClick={(e) => e.stopPropagation()}  hidden={ticketLink === "" || ticketUnreleased || ticketSoldOut} >
+                    <a className={"App-schedule-link"} href={ticketLink} target="_blank" onClick={(e) => e.stopPropagation()}  hidden={ticketLink === "" || ticketUnreleased || ticketSoldOut} >
                         Biljetter
                     </a>
                     <a className={"disabled-link"} hidden={!ticketUnreleased} >
@@ -26,7 +26,7 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
                         Slutsålt
                     </a>
                     <span hidden={!noTicket}>Ingen biljett behövs!</span>
-                    <a href={fbLink} target="_blank" onClick={(e) => e.stopPropagation()} hidden={fbLink === ""}>
+                    <a className={"App-schedule-link"} href={fbLink} target="_blank" onClick={(e) => e.stopPropagation()} hidden={fbLink === ""}>
                         Facebook
                     </a>
                 </div>
