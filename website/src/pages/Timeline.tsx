@@ -20,7 +20,20 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"25:e - 29:e September"}
+                    date={"25:e - 26:e September"}
+                    title={"TBA"}
+                />
+                <hr/>
+                <EventEntry
+                    title={"XXL-Pub feat. DKM"}
+                    date={"27:e September"}
+                    timeAndPlace={"17:17 META"}
+                    noTicket={true}
+                    info={"Årets aboslut fetaste pub, mitt i jubileumsveckan! Flera barer, grymma drinkar och en hel del annat. Det här är en pub man inte vill missa!"}
+                />
+                <hr/>
+                <EventEntry
+                    date={"28:e - 29:e September"}
                     title={"TBA"}
                 />
                 <hr/>
@@ -38,30 +51,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"TBA"}
-                    date={"2:a Oktober"}
-                />
-                <hr/>
-                <EventEntry
-                    title={"TBA"}
-                    date={"3:e Oktober"}
-                />
-                <hr/>
-                <EventEntry
-                    title={"XXL-Pub feat. DKM"}
-                    date={"4:e Oktober"}
-                    timeAndPlace={"17:17 META"}
-                    noTicket={true}
-                    info={"Årets aboslut fetaste pub, mitt i jubileumsveckan! Flera barer, grymma drinkar och en hel del annat. Det här är en pub man inte vill missa!"}
-                />
-                <hr/>
-                <EventEntry
-                    title={"TBA"}
-                    date={"5:e Oktober"}
-                />
-                <hr/>
-                <EventEntry
-                    title={"TBA"}
-                    date={"6:e Oktober"}
+                    date={"2:a – 6:e Oktober"}
                 />
                 <hr/>
                 <EventEntry
