@@ -11,12 +11,18 @@ const Timeline = () => {
                     date={"29:e April"}
                     title={"Halvårsfesten"}
                     timeAndPlace={"18:00 META"}
-                    //fbLink={"1"}
+                    fbLink={"https://www.facebook.com/events/6315168058496407"}
                     ticketUnreleased={true}
                     //ticketLink={"123"}
-                    info={"Om du, precis som dJubileumsstaben, inte kan vänta på dJubileet i höst är Halvårsfesten perfekt för dig!<br/><br/>" +
-                    "Halvårsfesten är en fulsittning som kommer att fira att det bara är ett halvt år kvar tills att det är dags för det största firandet på datasektionen!<br/><br/>" +
-                    "Mer information kommer snart!"}
+                    info={"Orkar du inte vänta ända tills hösten när dJubileumsveckorna startar? Då har du riktigt tur att halvårsfesten har anlänt!<br/><br/>" +
+                    "Men vad är en halv?<br/>" +
+                    "En halv är det irreducibla bråk som ges genom att dela ett med två (½), eller ett valfritt tal med ett annat tal av det dubbla värdet.<br/><br/>" +
+                    "Men vad är ett år?<br/>" +
+                    "Ett år är tiden det tar för planeten Terra (även känt som jorden i mindre sofistikerade kontext) att åka ett helt varv runt Sol (även känt som solen i mindre sofistikerade kontext).<br/><br/>" +
+                    "Och vad är då en fest?<br/>" +
+                    "En fest, även känd som en festlighet, kalas eller galej, är ett högtidligt socialt evenemang med fler än en deltagare.<br/><br/>" +
+                    "dJubileet bjuder in dig på en utomjordlig kväll för att fira att det bara är ett halvt år kvar tills självaste Konglig Datasektionen fyller 40 år. Var redo för mat, dricka, vänner och kanske till och med ett besök av självaste Alien Albin och hans vänner.<br/><br/>" +
+                    "<br/><br/>Biljettsläpp kommer ske den 22 mars klockan 19:30!"}
                 />
                 <hr/>
                 <EventEntry
@@ -44,9 +50,10 @@ const Timeline = () => {
                     timeAndPlace={"Winterviken"}
                     ticketUnreleased={true}
 
-                    info={"I höst uppmärksammar vi Datasektionens 40-årsdag i två hela veckor, och med banquetten ser vi till att starta firandet på topp! På banquetten drar vi upp allting ett snäpp från det vanliga – lokalen är lite större, maten är lite godare, vinet är lite dyrare, och gästerna är lite snyggare.<br/><br/>" +
-                    "Precis som alla fester av rang kommer dJubileumsbanquetten erbjuda alla vanliga nöjen – sånger kommer sjungas, tal kommer talas, och med lite tur kanske den lyckligt lottade kan få tassarna på en medalj eller två.<br/><br/>" +
-                    "Leta rätt på schmecken, kemtvätta frackvästen, och snygga till ögonfransarna så ses vi på dansgolvet!"}
+                    info={"Tiden har äntligen kommit för Konglig Datasektionen att fira sin 40-årsdag. I år kommer detta firande pågå under två hela veckor, inklusive en banquette i världsklass den 30:e september. På banquetten går datalogernas firande till sin topp, de sjunger finare och de äter godare. Det kommer att bli en sittning som ingen datalog med sinne någonsin skulle vilja missa." +
+                    "<br/><br/>dJubileumsbanquetten kommer såklart inkludera allt som förväntas av en vanlig banquette men det sker med lite mer högtidlighet och mycket mer nöje. Det är ju ändå ett jubileum." +
+                    "<br/><br/>Biljettsläpp kommer ske den 29/3 klockan 20:00!"
+                        }
                 />
                 <hr/>
                 <EventEntry
