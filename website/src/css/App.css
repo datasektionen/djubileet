@@ -471,6 +471,32 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1300px){
+
+  .App-header {
+    font-size: 40px;
+  }
+
+  .number {
+    font-size: 40px;
+  }
+  .textdate {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .time {
+    width: 250px;
+  }
+
+  .bday {
+    font-size: 40px;}
+
+  .landing-logo{
+    padding: 0;
+  }
+}
+
  /* The sidenav */
  .sidenav {
   height: 100%;
