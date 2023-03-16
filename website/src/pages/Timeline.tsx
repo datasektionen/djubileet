@@ -12,8 +12,8 @@ const Timeline = () => {
                     title={"Halvårsfesten"}
                     timeAndPlace={"18:00 META"}
                     fbLink={"https://www.facebook.com/events/6315168058496407"}
-                    ticketUnreleased={true}
-                    //ticketLink={"123"}
+                    //ticketUnreleased={true}
+                    ticketLink={"https://hf.djubileet.se/"}
                     info={"Orkar du inte vänta ända tills hösten när dJubileumsveckorna startar? Då har du riktigt tur att halvårsfesten har anlänt!<br/><br/>" +
                     "Men vad är en halv?<br/>" +
                     "En halv är det irreducibla bråk som ges genom att dela ett med två (½), eller ett valfritt tal med ett annat tal av det dubbla värdet.<br/><br/>" +
@@ -48,7 +48,8 @@ const Timeline = () => {
                     title={"Banquetten"}
                     fbLink={"https://www.dsekt.se/djub-banquette-web"}
                     timeAndPlace={"Winterviken"}
-                    ticketUnreleased={true}
+                    ticketUnreleased={false}
+                    ticketLink={"https://banquette.djubileet.se/"}
 
                     info={"Tiden har äntligen kommit för Konglig Datasektionen att fira sin 40-årsdag. I år kommer detta firande pågå under två hela veckor, inklusive en banquette i världsklass den 30:e september. På banquetten går datalogernas firande till sin topp, de sjunger finare och de äter godare. Det kommer att bli en sittning som ingen datalog med sinne någonsin skulle vilja missa." +
                     "<br/><br/>dJubileumsbanquetten kommer såklart inkludera allt som förväntas av en vanlig banquette men det sker med lite mer högtidlighet och mycket mer nöje. Det är ju ändå ett jubileum." +
