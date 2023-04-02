@@ -61,7 +61,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"14:e Oktober"}
+                    date={"TBA"}
                     title={"Slutfesten"}
                     fbLink={"https://www.dsekt.se/djub-slutfest-web"}
                     timeAndPlace={"TBA"}
