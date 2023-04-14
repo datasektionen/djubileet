@@ -8,7 +8,7 @@ const Timeline = () => {
             <h1 className={"title"}>Event</h1>
             <div>
                 <EventEntry
-                    date={"29:e April"}
+                    date={"29:e april"}
                     title={"Halvårsfesten"}
                     timeAndPlace={"18:00 META"}
                     fbLink={"https://www.facebook.com/events/6315168058496407"}
@@ -26,25 +26,25 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"25:e - 26:e September"}
+                    date={"25:e - 26:e september"}
                     title={"TBA"}
                 />
                 <hr/>
                 <EventEntry
                     title={"XXL-Pub feat. DKM"}
-                    date={"27:e September"}
+                    date={"27:e september"}
                     timeAndPlace={"17:17 META"}
                     noTicket={true}
                     info={"Årets aboslut fetaste pub, mitt i jubileumsveckan! Flera barer, grymma drinkar och en hel del annat. Det här är en pub man inte vill missa!"}
                 />
                 <hr/>
                 <EventEntry
-                    date={"28:e - 29:e September"}
+                    date={"28:e - 29:e september"}
                     title={"TBA"}
                 />
                 <hr/>
                 <EventEntry
-                    date={"30:e September"}
+                    date={"30:e september"}
                     title={"Banquetten"}
                     fbLink={"https://www.dsekt.se/djub-banquette-web"}
                     timeAndPlace={"Winterviken"}
@@ -57,18 +57,18 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"TBA"}
-                    date={"2:a – 6:e Oktober"}
+                    date={"2:a – 6:e oktober"}
                 />
                 <hr/>
                 <EventEntry
-                    date={"TBA"}
+                    date={"14:e oktober"}
                     title={"Slutfesten"}
                     fbLink={"https://www.dsekt.se/djub-slutfest-web"}
-                    timeAndPlace={"TBA"}
+                    timeAndPlace={"Nymble"}
                     info={"Efter att vi har uppmärksammat sektionens 40-årsdag i två hela veckor, så ser vi på slutfesten till att allting slutar med en ordentlig smäll!<br/><br/>" +
   	"dJubileets slutfest är utan tvekan en av de största händelserna på hela året, och är det bästa tillfället sektionen har att erbjuda för gamla och nya kursare att lära känna varandra.<br/><br/>" + "Exakt vad som kommer hända under kvällen är fortfarande hemligstämplat av nöjesanledningar, men en sak är säker. Det kommer bli en kväll som är svår att överträffa – åtminstone tills det att sektionen fyller 45 år!<br/><br/>" +
 "Glöm inte att dricka varannan vatten, undvika att vakna i skogen, och att ha en riktigt rolig kväll!<br/><br/>" + "Tagga till så ses vi på slutfesten!<br/></br>" + "Biljettsläpp kommer ske den 19/4 klockan 20:00!"}
-ticketUnreleased={true}
+ticketLink={"https://dsekt.se/biljetter-slutfest"}
   			  />
                 	
             </div>
