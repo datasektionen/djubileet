@@ -8,12 +8,25 @@ const Timeline = () => {
             <h1 className={"title"}>Event</h1>
             <div>
                 <EventEntry
+                    date={"19:e April"}
+                    title={"Slutfesten - Biljettsläppspub"}
+                    timeAndPlace={"17:17 META"}
+                    fbLink={"https://www.facebook.com/events/6215077875251204"}
+                    noTicket={true}
+                    info={"Nu är det äntligen dags för biljettsläppet till sektionens största pang-boom-ouch fest och dJubileets (och sektionens) sista evenemang, nämligen slutfesten.<br/><br/>" +
+                    "DKM och dJubileet har ingått en ohelig pakt och kommer styra upp en pub tillsammans! Sväng förbi på onsdag för en pub fylld med aliens, gamla märken och ett superduperultra viktigt biljettsläpp.<br/><br/>" +
+                    "Formuläret för biljettsläppet öppnas klockan 20:00. Länken till formuläret kan ni hitta längre ner på sidan.<br/><br/>" +
+                    "Biljetterna kommer att lottas ut mellan alla som svarar på formuläret inom en timme."}
+                />
+                <hr/>
+                <EventEntry
                     date={"29:e April"}
                     title={"Halvårsfesten"}
                     timeAndPlace={"18:00 META"}
                     fbLink={"https://www.facebook.com/events/6315168058496407"}
-                    //ticketUnreleased={true}
                     ticketLink={"https://hf.djubileet.se/"}
+                    interestLink={"https://dsekt.se/reservlista-hf"}
+                    ticketSoldOut={true}
                     info={"Orkar du inte vänta ända tills hösten när dJubileumsveckorna startar? Då har du riktigt tur att halvårsfesten har anlänt!<br/><br/>" +
                     "Men vad är en halv?<br/>" +
                     "En halv är det irreducibla bråk som ges genom att dela ett med två (½), eller ett valfritt tal med ett annat tal av det dubbla värdet.<br/><br/>" +
@@ -49,7 +62,9 @@ const Timeline = () => {
                     fbLink={"https://www.dsekt.se/djub-banquette-web"}
                     timeAndPlace={"Winterviken"}
                     ticketUnreleased={false}
+                    ticketSoldOut={true}
                     ticketLink={"https://banquette.djubileet.se/"}
+                    interestLink={"https://dsekt.se/reservlista-banquette"}
 
                     info={"Tiden har äntligen kommit för Konglig Datasektionen att fira sin 40-årsdag. I år kommer detta firande pågå under två hela veckor, inklusive en banquette i världsklass den 30:e september. På banquetten går datalogernas firande till sin topp, de sjunger finare och de äter godare. Det kommer att bli en sittning som ingen datalog med sinne någonsin skulle vilja missa." +
                     "<br/><br/>dJubileumsbanquetten kommer såklart inkludera allt som förväntas av en vanlig banquette men det sker med lite mer högtidlighet och mycket mer nöje. Det är ju ändå ett jubileum." +
@@ -63,14 +78,15 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"7:e Oktober"}
+                    date={"14:e Oktober"}
                     title={"Slutfesten"}
                     fbLink={"https://www.dsekt.se/djub-slutfest-web"}
-                    timeAndPlace={"TBA"}
+                    ticketLink={"dsekt.se/biljetter-slutfest"}
+                    timeAndPlace={"Nymble"}
                     info={"Efter att vi har uppmärksammat sektionens 40-årsdag i två hela veckor, så ser vi på slutfesten till att allting slutar med en ordentlig smäll!<br/><br/>" +
                     "dJubileets slutfest är tveklöst en av de största händelserna på året, och är ett sällsynt tillfälle både att springa på gamla kursare och att bekanta sig med sektionens yngre medlemmar.<br/><br/>" +
-                    "Exakt vad som kommer hända under kvällen håller vi för oss själva än så länge, men en sak är säker. det kommer bli en kväll som är svår att överträffa – åtminstone tills det att sektionen fyller 45 år!"}
-                    ticketUnreleased={true}
+                    "Exakt vad som kommer hända under kvällen håller vi för oss själva än så länge, men en sak är säker. det kommer bli en kväll som är svår att överträffa – åtminstone tills det att sektionen fyller 45 år!" +
+                    "<br/><br/>Biljetter släpps 19/4 klockan 20:00!"}
                 />
             </div>
         </div>
