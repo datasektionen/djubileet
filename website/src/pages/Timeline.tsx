@@ -73,13 +73,13 @@ const Timeline = () => {
                     date={"14:e oktober"}
                     title={"Slutfesten"}
                     fbLink={"https://www.dsekt.se/djub-slutfest-web"}
-                    ticketLink={"dsekt.se/biljetter-slutfest"}
+
                     timeAndPlace={"Nymble"}
                     info={"Efter att vi har uppmärksammat sektionens 40-årsdag i två hela veckor, så ser vi på slutfesten till att allting slutar med en ordentlig smäll!<br/><br/>" +
-                    "dJubileets slutfest är tveklöst en av de största händelserna på året, och är ett sällsynt tillfälle både att springa på gamla kursare och att bekanta sig med sektionens yngre medlemmar.<br/><br/>" +
-                    "Exakt vad som kommer hända under kvällen håller vi för oss själva än så länge, men en sak är säker. det kommer bli en kväll som är svår att överträffa – åtminstone tills det att sektionen fyller 45 år!" +
-                    "<br/><br/>Biljetter släpps 19/4 klockan 20:00!"}
-                />
+  	"dJubileets slutfest är utan tvekan en av de största händelserna på hela året, och är det bästa tillfället sektionen har att erbjuda för gamla och nya kursare att lära känna varandra.<br/><br/>" + "Exakt vad som kommer hända under kvällen är fortfarande hemligstämplat av nöjesanledningar, men en sak är säker. Det kommer bli en kväll som är svår att överträffa – åtminstone tills det att sektionen fyller 45 år!<br/><br/>" +
+"Glöm inte att dricka varannan vatten, undvika att vakna i skogen, och att ha en riktigt rolig kväll!<br/><br/>" + "Tagga till så ses vi på slutfesten!<br/></br>" + "Biljettsläpp kommer ske den 19/4 klockan 20:00!"}
+ticketLink={"https://dsekt.se/biljetter-slutfest"}
+  			  />
             </div>
         </div>
     );
