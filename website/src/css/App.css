@@ -89,6 +89,22 @@
   text-shadow: 2px 2px 5px #E83D84;
 }
 
+.download-link{
+  color: #E83D84;
+  font-size: 22px;
+}
+.download-link:hover{
+  color: #EC5F99;
+  font-size: 22px;
+}
+
+.download-link:active{
+  color: white;
+  font-size: 22px;
+}
+
+
+
 .App-header {
   min-height: 1vh;
   display: flex;
@@ -146,6 +162,11 @@
   font-weight: 450;
   color: white;
 }
+.disabled-App-schedule-link {
+   text-decoration: none;
+   font-weight: 450;
+   color: darkgray;
+ }
 
 .App-schedule-link:visited {
   color: white;
@@ -172,6 +193,24 @@
   text-align: start;
   transition-duration: 0.4s;
   -webkit-tap-highlight-color: transparent;
+}
+
+.disabled-event-row {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 450;
+  text-align: start;
+  color: grey;
+  transition-duration: 0.4s;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
 }
 
 
@@ -387,6 +426,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 @media screen and (max-width: 480px) {
 
   .event-row {
+    font-size: 17px;
+  }
+  .disabled-event-row {
     font-size: 17px;
   }
 
