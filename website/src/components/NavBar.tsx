@@ -12,6 +12,7 @@ function NavBar() {
     <nav className="topnav">
         <button onClick={() => handleClickScroll("schema")}>Event</button>
         <button onClick={() => handleClickScroll("about")}>Om dJubileet</button>
+        <button onClick={() => handleClickScroll("companyInfo")}>För Företag</button>
         <button onClick={() => handleClickScroll("linktree")}>Sociala Medier</button>
     </nav>
     );

@@ -89,6 +89,22 @@
   text-shadow: 2px 2px 5px #E83D84;
 }
 
+.download-link{
+  color: #E83D84;
+  font-size: 22px;
+}
+.download-link:hover{
+  color: #EC5F99;
+  font-size: 22px;
+}
+
+.download-link:active{
+  color: white;
+  font-size: 22px;
+}
+
+
+
 .App-header {
   min-height: 1vh;
   display: flex;
@@ -410,6 +426,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 @media screen and (max-width: 480px) {
 
   .event-row {
+    font-size: 17px;
+  }
+  .disabled-event-row {
     font-size: 17px;
   }
 
