@@ -76,7 +76,7 @@ const Timeline = () => {
                     "dJubileumsbanquetten kommer såklart inkludera allt som förväntas av en vanlig banquette men det sker med lite mer högtidlighet och mycket mer nöje.<br/><br/>" +
                     "På banquetten går datalogernas firande till sin topp, de sjunger finare, de äter godare, de dricker dyrare och som ett resultat ser de även snyggare ut.<br/><br/>" +
                     "Det kommer att bli en sittning som ingen datalog med sinne någonsin skulle vilja missa. Så leta rätt på schmecken, kemtvätta frackvästen, och smörj in stämbanden så ses vi på dansgolvet!<br/><br/>" +
-                    "Första omgången biljetter har sålt slut, men fler biljetter kommer att släppas på länken ovan, tisdag den 20/6, kl 20:00."}
+                    "Första omgången biljetter har sålt slut, men fler biljetter kommer att släppas på länken ovan under lunch, tisdag den 20/6."}
  		 />
                 <hr/>
                 <EventEntry
