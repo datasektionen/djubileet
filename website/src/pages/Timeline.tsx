@@ -66,14 +66,17 @@ const Timeline = () => {
                     dateTime={new Date(2023, 9, 30)}
                     title={"Banquetten"}
                     fbLink={"https://www.dsekt.se/djub-banquette-web"}
-                    timeAndPlace={"Winterviken"}
+                    timeAndPlace={"Münchenbryggeriet"}
                     ticketUnreleased={false}
-                    ticketSoldOut={true}
+                    ticketSoldOut={false}
                     ticketLink={"https://banquette.djubileet.se/"}
-                    interestLink={"https://dsekt.se/reservlista-banquette"}
+                    //interestLink={"https://dsekt.se/reservlista-banquette"}
 
                     info={"Tiden är äntligen kommen för Konglig Datasektionen att fira sin 40-årsdag.<br/> I år kommer detta firande pågå under två hela veckor, inklusive en banquette i världsklass den 30:e september.<br/><br/>" +
-"dJubileumsbanquetten kommer såklart inkludera allt som förväntas av en vanlig banquette men det sker med lite mer högtidlighet och mycket mer nöje.<br/><br/>" + "På banquetten går datalogernas firande till sin topp, de sjunger finare, de äter godare, de dricker dyrare och som ett resultat ser de även snyggare ut.<br/><br/>" + "Det kommer att bli en sittning som ingen datalog med sinne någonsin skulle vilja missa. Så leta rätt på schmecken, kemtvätta frackvästen, och smörj in stämbanden så ses vi på dansgolvet!<br/><br/>" + "Biljettsläpp kommer ske den 29/3 klockan 20:00!"}
+                    "dJubileumsbanquetten kommer såklart inkludera allt som förväntas av en vanlig banquette men det sker med lite mer högtidlighet och mycket mer nöje.<br/><br/>" +
+                    "På banquetten går datalogernas firande till sin topp, de sjunger finare, de äter godare, de dricker dyrare och som ett resultat ser de även snyggare ut.<br/><br/>" +
+                    "Det kommer att bli en sittning som ingen datalog med sinne någonsin skulle vilja missa. Så leta rätt på schmecken, kemtvätta frackvästen, och smörj in stämbanden så ses vi på dansgolvet!<br/><br/>" +
+                    "Första omgången biljetter har sålt slut, men fler biljetter kommer att släppas på länken ovan, tisdag den 20/6, kl 20:00."}
  		 />
                 <hr/>
                 <EventEntry
