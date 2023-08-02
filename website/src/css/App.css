@@ -646,3 +646,28 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-size: 15px;
   }
 }
+
+/* Style the buttons inside the navigation bar */
+.expand-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 10px 16px;
+  margin-left: 2px;
+  border-radius: 5px;
+  margin-right: 2px;
+  text-decoration: none;
+  font-family: Quicksand, Arial, sans-serif;
+  font-size: 19px;
+}
+
+/* Style the buttons inside the navigation bar */
+.expand-button:hover {
+  background-color: rgba(232,61,132, 0.2);
+}
+
+/* Style the buttons inside the navigation bar */
+.expand-button:active {
+  background-color: rgba(232,61,132, 0.3);
+}

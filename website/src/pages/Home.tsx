@@ -8,6 +8,7 @@ import Linky from './Linky';
 import About from './About';
 import NavBar from "../components/NavBar";
 import CompanyInfo from "./CompanyInfo";
+import History from "./History";
 
 function Home() {
   const DATUM = new Date("2023-09-24T22:00:00Z");
@@ -34,6 +35,7 @@ function Home() {
             <div>
                 <div id="schema"><Timeline/></div>
                 <div id="about"><About/></div>
+                <div id="history"><History/></div>
                 <div id="companyInfo"><CompanyInfo/></div>
                 <div id="linktree"><Linky/></div>
                 <footer className="App-footer">
