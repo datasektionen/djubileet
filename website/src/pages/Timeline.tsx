@@ -172,7 +172,7 @@ const Timeline = () => {
                     date={"9:e oktober"}
                     dateTime={new Date(2023, 10, 9)}
                     timeAndPlace={"TBA"}
-                    noTicket={true}
+                    noTicket={false}
                     info={"SAAB bjuder in till lunchföreläsning! Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
                 />
                 <hr/>
