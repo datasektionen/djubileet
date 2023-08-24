@@ -47,7 +47,6 @@ const Timeline = () => {
                     dateTime={new Date(2023, 9, 25)}
                     title={"Syplunta + tävling med Färgfemman"}
                     timeAndPlace={"17:30 META"}
-                    fbLink={"SOON"}
                     noTicket={true}
                     info={"Färgfemman är tillbaka! Kom och ta en öl eller hälsa på Loket och vinn i Färgfemman! Förvänta er retro märken och sytävling. "}
                     alcoholEvent={true}
@@ -58,7 +57,6 @@ const Timeline = () => {
                     dateTime={new Date(2023, 9, 26)}
                     title={"METAhäng: Pysselstuga och märkestävling"}
                     timeAndPlace={"17:30 META"}
-                    fbLink={"SOON"}
                     noTicket={true}
                     info={"Kom och häng i META! Vi kommer att ha pysselstuga där ni får skapa coola dekorationer till dJubileet. Dels kan ni få göra dekorationer till slutfesten, men vi kommer även ha en dJu(be)lgran i META som sjävklart behöver pynt! Är man inte mycket för pyssel kommer det att finnas brädspel och en MÄRKESTÄVLING! Finns det nåt coolt märke du drömmer om att ha på ovven? Kom och rita det! Vinnande märket kommer att beställas och kan sedan köpas av Prylis."}
                 />
@@ -80,6 +78,7 @@ const Timeline = () => {
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"12:00 TBA"}
                     noTicket={false}
+                    temporaryText="Sign-up kommer senare" 
                     info={"40 år av data betyder såklart också 40 år av DKM, och vilket bättre sätt finns det att fira det än en XL (40) pub?! Förvänta er uteservering och en galen kväll. "}
                 />
                 <hr/>
@@ -88,6 +87,7 @@ const Timeline = () => {
                     date={"28:e september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"17:30 TBA"}
+                    temporaryText="Sign-up kommer senare" 
                     noTicket={false}
                     info={"Vem älskar inte en biokväll? Koppla av efter plugget med en riktigt grym rulle från 80-talet! Det blir dessutom en double feature-visning med en film om någon jämngammal med sektionen! QN och dJubileet kommer att bjuda på popcorn i äkta bio-anda."}
                 />
@@ -173,6 +173,7 @@ const Timeline = () => {
                     dateTime={new Date(2023, 10, 9)}
                     timeAndPlace={"TBA"}
                     noTicket={false}
+                    temporaryText="Sign-up kommer senare" 
                     info={"SAAB bjuder in till lunchföreläsning! Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
                 />
                 <hr/>

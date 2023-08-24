@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 
-function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "", interestLink = "", info = "", ticketUnreleased = false, ticketSoldOut = false, noTicket = false, dateTime, alcoholEvent = false} :
+function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "", interestLink = "", info = "",temporaryText = "", ticketUnreleased = false, ticketSoldOut = false, noTicket = false, dateTime, alcoholEvent = false} :
                         {date : string, title : string, timeAndPlace? : string, fbLink? : string, ticketLink? : string, interestLink? : string, info? : string,
-                            ticketUnreleased? : boolean, ticketSoldOut? : boolean, noTicket? : boolean, dateTime : Date, alcoholEvent? : boolean} ) {
+                            ticketUnreleased? : boolean, ticketSoldOut? : boolean, noTicket? : boolean, dateTime : Date, alcoholEvent? : boolean, temporaryText? : string} ) {
 
     const [expanded, setExpanded] = useState(false);
 
@@ -26,6 +26,9 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
                     {title}
                 </p>
                 <div>
+                    {!(temporaryText === "" )?<span className={"App-schedule-link"}>
+                        {temporaryText}
+                    </span>:null}
                     {!(ticketLink === "" || ticketUnreleased || hasHappened)?<a className={"App-schedule-link"} href={ticketLink} target="_blank" onClick={(e) => e.stopPropagation()}>
                         {ticketSoldOut?"Biljetter (Slutsålt)":"Biljetter"}
                     </a>:null}
@@ -39,6 +42,7 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
                     {fbLink !== ""?<a className={hasHappened?"disabled-App-schedule-link":"App-schedule-link"} href={fbLink} target="_blank" onClick={(e) => e.stopPropagation()} hidden={fbLink === ""}>
                         Facebook
                     </a>:null}
+                    
                 </div>
             </td>
 
