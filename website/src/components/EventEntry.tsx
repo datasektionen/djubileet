@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 
-function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "", interestLink = "", info = "", ticketUnreleased = false, ticketSoldOut = false, noTicket = false, dateTime} :
+function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "", interestLink = "", info = "", ticketUnreleased = false, ticketSoldOut = false, noTicket = false, dateTime, alcoholEvent = false} :
                         {date : string, title : string, timeAndPlace? : string, fbLink? : string, ticketLink? : string, interestLink? : string, info? : string,
-                            ticketUnreleased? : boolean, ticketSoldOut? : boolean, noTicket? : boolean, dateTime : Date} ) {
+                            ticketUnreleased? : boolean, ticketSoldOut? : boolean, noTicket? : boolean, dateTime : Date, alcoholEvent? : boolean} ) {
 
     const [expanded, setExpanded] = useState(false);
 
@@ -15,7 +15,11 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
         <div className={hasHappened?"disabled-event-row":"event-row"}  onClick={() => setExpanded(!expanded)}>
             <td className={"event-date"}>
                 <p>{date}</p>
-                <p className={"event-date-sub"} hidden={timeAndPlace === ""}>{timeAndPlace}</p>
+                <div className={"event-date-line"}>
+                    <p className={"event-date-sub"} hidden={timeAndPlace === ""}>{timeAndPlace}</p>
+                    <p className={"serving-alcohol"} hidden={!alcoholEvent} title="På det här eventet kommer alkohol serveras">🥂</p>
+                </div>
+                
             </td>
             <td  className={"event-info"}>
                 <p className={"event-title"}>
