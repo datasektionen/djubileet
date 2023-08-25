@@ -168,6 +168,16 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
+                    title={"Födelsedagskalas – sektionen fyller 40!"}
+                    date={"7:e oktober"}
+                    dateTime={new Date(2023, 10, 7)}
+                    timeAndPlace={"TBA"}
+                    noTicket={true}
+                    info={"Kom och fira sektionens födelsedag! Den 7 oktober fyller sektionen officiellt 40 år och vi kommer att ha ett riktigt födelsedagskalas med tårta och allt vad det hör till. Hurra! Hurra! Hurra!"}
+                    alcoholEvent={false}
+                />
+                <hr/>
+                <EventEntry
                     title={"Lunchföreläsning med SAAB"}
                     date={"9:e oktober"}
                     dateTime={new Date(2023, 10, 9)}
