@@ -73,7 +73,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"Lunchföreläsning med FRA"}
+                    title={"Lunchföreläsning"}
                     date={"28:e september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"12:00 TBA"}
@@ -122,7 +122,7 @@ const Timeline = () => {
  		 />
                 <hr/>
                 <EventEntry
-                    title={"Pluggstuga"}
+                    title={"Pluggstuga med Studienämnden"}
                     date={"2:a oktober"}
                     dateTime={new Date(2023, 10, 2)}
                     timeAndPlace={"17:30 TBA"}
@@ -178,7 +178,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"Lunchföreläsning med SAAB"}
+                    title={"Lunchföreläsning"}
                     date={"9:e oktober"}
                     dateTime={new Date(2023, 10, 9)}
                     timeAndPlace={"TBA"}
