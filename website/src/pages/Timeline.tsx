@@ -8,7 +8,7 @@ const Timeline = () => {
             <h1 className={"title"}>Event</h1>
             <div>
                 <EventEntry
-                    date={"19:e april"}
+                    date={"19 april"}
                     dateTime={new Date(2023, 4, 19)}
                     title={"Slutfesten - Biljettsläppspub"}
                     timeAndPlace={"17:17 META"}
@@ -22,7 +22,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"29:e april"}
+                    date={"29 april"}
                     dateTime={new Date(2023, 4, 29)}
                     title={"Halvårsfesten"}
                     timeAndPlace={"18:00 META"}
@@ -43,7 +43,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"25:e september"}
+                    date={"25 september"}
                     dateTime={new Date(2023, 9, 25)}
                     title={"Syplunta med Färgfemman"}
                     timeAndPlace={"17:00 META"}
@@ -54,7 +54,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"26:e september"}
+                    date={"26 september"}
                     dateTime={new Date(2023, 9, 26)}
                     title={"METAhäng: Pysselstuga och märkestävling"}
                     timeAndPlace={"17:00 META"}
@@ -65,7 +65,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"XL-Pub feat. DKM"}
-                    date={"27:e september"}
+                    date={"27 september"}
                     dateTime={new Date(2023, 9, 27)}
                     timeAndPlace={"17:17 META"}
                     noTicket={true}
@@ -77,7 +77,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Lunchföreläsning"}
-                    date={"28:e september"}
+                    date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"12:00 TBA"}
                     noTicket={false}
@@ -88,7 +88,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Bio på campus"}
-                    date={"28:e september"}
+                    date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"17:00 TBA"}
                     temporaryText="Sign-up kommer senare" 
@@ -99,7 +99,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Sektionshistoriaföreläsning och Sångarafton"}
-                    date={"29:e september"}
+                    date={"29 september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"17:00 TBA"}
                     noTicket={false}
@@ -110,7 +110,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"30:e september"}
+                    date={"30 september"}
                     dateTime={new Date(2023, 9, 30)}
                     title={"Banquetten"}
                     fbLink={"https://www.dsekt.se/djub-banquette-web"}
@@ -120,7 +120,7 @@ const Timeline = () => {
                     ticketLink={"https://banquette.djubileet.se/"}
                     //interestLink={"https://dsekt.se/reservlista-banquette"}
 
-                    info={"Tiden är äntligen kommen för Konglig Datasektionen att fira sin 40-årsdag.<br/> I år kommer detta firande pågå under två hela veckor, inklusive en banquette i världsklass den 30:e september.<br/><br/>" +
+                    info={"Tiden är äntligen kommen för Konglig Datasektionen att fira sin 40-årsdag.<br/> I år kommer detta firande pågå under två hela veckor, inklusive en banquette i världsklass den 30 september.<br/><br/>" +
                     "dJubileumsbanquetten kommer såklart inkludera allt som förväntas av en vanlig banquette men det sker med lite mer högtidlighet och mycket mer nöje.<br/><br/>" +
                     "På banquetten går datalogernas firande till sin topp, de sjunger finare, de äter godare, de dricker dyrare och som ett resultat ser de även snyggare ut.<br/><br/>" +
                     "Det kommer att bli en sittning som ingen datalog med sinne någonsin skulle vilja missa. Så leta rätt på schmecken, kemtvätta frackvästen, och smörj in stämbanden så ses vi på dansgolvet!<br/><br/>"
@@ -130,7 +130,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Pluggstuga med Studienämnden"}
-                    date={"2:a oktober"}
+                    date={"2 oktober"}
                     dateTime={new Date(2023, 10, 2)}
                     timeAndPlace={"17:00 META"}
                     noTicket={true}
@@ -140,7 +140,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"METAhäng: TBA"}
-                    date={"3:e oktober"}
+                    date={"3 oktober"}
                     dateTime={new Date(2023, 10, 3)}
                     timeAndPlace={"17:00 META"}
                     noTicket={true}
@@ -149,7 +149,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Företagspub"}
-                    date={"4:e oktober"}
+                    date={"4 oktober"}
                     dateTime={new Date(2023, 10, 4)}
                     timeAndPlace={"17:17 META"}
                     noTicket={true}
@@ -159,7 +159,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"TBA"}
-                    date={"5:e oktober"}
+                    date={"5 oktober"}
                     dateTime={new Date(2023, 10, 5)}
                     timeAndPlace={"TBD"}
                     //info={"Kom och få en inblick i sektionens förflutna och öva upp sångrösten inför banquetten! Denna kväll bjuder på en föreläsning som hålls av Sektionshistoriker och man får dessutom gratis käk! Vi avslutar kvällen med sångarafton tillsammans med Sångledare och Scala."}
@@ -167,7 +167,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Spextakulär karaokepub"}
-                    date={"6:e oktober"}
+                    date={"6 oktober"}
                     dateTime={new Date(2023, 10, 6)}
                     timeAndPlace={"17:17 META"}
                     noTicket={true}
@@ -178,7 +178,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Födelsedagskalas – sektionen fyller 40!"}
-                    date={"7:e oktober"}
+                    date={"7 oktober"}
                     dateTime={new Date(2023, 10, 7)}
                     timeAndPlace={"13:37 TBA"}
                     noTicket={true}
@@ -189,7 +189,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Lunchföreläsning"}
-                    date={"9:e oktober"}
+                    date={"9 oktober"}
                     dateTime={new Date(2023, 10, 9)}
                     timeAndPlace={"12:00 TBA"}
                     noTicket={false}
@@ -199,7 +199,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"D-Dagen setup"}
-                    date={"11:e oktober"}
+                    date={"11 oktober"}
                     dateTime={new Date(2023, 10, 11)}
                     timeAndPlace={"Nymble"}
                     info={"Gör er plikt! Hjälp sektionen arrangera den största D-Dagen någonsin."}
@@ -208,7 +208,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"D-Dagen"}
-                    date={"12:e oktober"}
+                    date={"12 oktober"}
                     dateTime={new Date(2023, 10, 12)}
                     timeAndPlace={"Sent på kvällen"}
                     info={"Men hallå, D-Dagen är ju inte ett dJubileumsevent?! Jo, för i år vill vi välkomna alumner till efterköret! D-Dagen kommer att bjuda in en live-artist till efterköret, så det blir en kväll utöver det vanliga! Förvänta er barbongar, bra musik och cerise flugor."}
@@ -217,7 +217,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    date={"14:e oktober"}
+                    date={"14 oktober"}
                     dateTime={new Date(2023, 10, 14)}
                     title={"Slutfesten"}
                     fbLink={"https://www.dsekt.se/djub-slutfest-web"}
