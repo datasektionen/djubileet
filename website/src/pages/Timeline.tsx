@@ -46,19 +46,21 @@ const Timeline = () => {
                     date={"25:e september"}
                     dateTime={new Date(2023, 9, 25)}
                     title={"Syplunta med Färgfemman"}
-                    timeAndPlace={"17:30 META"}
+                    timeAndPlace={"17:00 META"}
                     noTicket={true}
                     info={"Färgfemman är tillbaka! Kom och ta en öl eller hälsa på Loket och vinn i Färgfemman! Förvänta er retro märken och sytävling. "}
                     alcoholEvent={true}
+                    fbLink={"https://www.facebook.com/events/296431496304196/"}
                 />
                 <hr/>
                 <EventEntry
                     date={"26:e september"}
                     dateTime={new Date(2023, 9, 26)}
                     title={"METAhäng: Pysselstuga och märkestävling"}
-                    timeAndPlace={"17:30 META"}
+                    timeAndPlace={"17:00 META"}
                     noTicket={true}
                     info={"Kom och häng i META! Vi kommer att ha pysselstuga där ni får skapa coola dekorationer till dJubileet. Dels kan ni få göra dekorationer till slutfesten, men vi kommer även ha en dJu(be)lgran i META som sjävklart behöver pynt! Är man inte mycket för pyssel kommer det att finnas brädspel och en MÄRKESTÄVLING! Finns det nåt coolt märke du drömmer om att ha på ovven? Kom och rita det! Vinnande märket kommer att beställas och kan sedan köpas av Prylis."}
+                    fbLink={"https://www.facebook.com/events/1657990151330779/"}
                 />
                 <hr/>
                 <EventEntry
@@ -70,6 +72,7 @@ const Timeline = () => {
                     info={"40 år av data betyder såklart också 40 år av DKM, och vilket bättre sätt finns det att fira det än en XL (40) pub?! Förvänta er uteservering och en galen kväll. "}
                     alcoholEvent={true}
                     //info={"Årets aboslut fetaste pub, mitt i jubileumsveckan! Flera barer, grymma drinkar och en hel del annat. Det här är en pub man inte vill missa!"}
+                    fbLink={"https://www.facebook.com/events/2379115775592603/"}
                 />
                 <hr/>
                 <EventEntry
@@ -79,27 +82,31 @@ const Timeline = () => {
                     timeAndPlace={"12:00 TBA"}
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
-                    info={"40 år av data betyder såklart också 40 år av DKM, och vilket bättre sätt finns det att fira det än en XL (40) pub?! Förvänta er uteservering och en galen kväll. "}
+                    info={"Förvänta er gratis mat och supertrevliga företagsrepresentanter."}
+                    fbLink={"https://www.facebook.com/events/611799241100312/"}
                 />
                 <hr/>
                 <EventEntry
                     title={"Bio på campus"}
                     date={"28:e september"}
                     dateTime={new Date(2023, 9, 28)}
-                    timeAndPlace={"17:30 TBA"}
+                    timeAndPlace={"17:00 TBA"}
                     temporaryText="Sign-up kommer senare" 
                     noTicket={false}
                     info={"Vem älskar inte en biokväll? Koppla av efter plugget med en riktigt grym rulle från 80-talet! Det blir dessutom en double feature-visning med en film om någon jämngammal med sektionen! QN och dJubileet kommer att bjuda på popcorn i äkta bio-anda."}
+                    fbLink={"https://www.facebook.com/events/200407242835404/"}
                 />
                 <hr/>
                 <EventEntry
                     title={"Sektionshistoriaföreläsning och Sångarafton"}
                     date={"28:e september"}
                     dateTime={new Date(2023, 9, 28)}
-                    timeAndPlace={"17:30 TBA"}
-                    noTicket={true}
+                    timeAndPlace={"17:00 TBA"}
+                    noTicket={false}
+                    temporaryText="Sign-up kommer senare" 
                     info={"Kom och få en inblick i sektionens förflutna och öva upp sångrösten inför banquetten! Denna kväll bjuder på en föreläsning som hålls av Sektionshistoriker och man får dessutom gratis käk! Vi avslutar kvällen med sångarafton tillsammans med Sångledare och Scala."}
                     alcoholEvent={true}
+                    fbLink={"https://www.facebook.com/events/622134180055778/"}
                 />
                 <hr/>
                 <EventEntry
@@ -125,16 +132,17 @@ const Timeline = () => {
                     title={"Pluggstuga med Studienämnden"}
                     date={"2:a oktober"}
                     dateTime={new Date(2023, 10, 2)}
-                    timeAndPlace={"17:30 TBA"}
+                    timeAndPlace={"17:00 TBA"}
                     noTicket={true}
                     info={"Efter en vecka fullspäckad med roliga aktiviteter är det dags att ta igen plugget lite. Självklart kommer Studienämnden till undsättning och håller i en pluggstuga! Kom fikasugen, det kommer finnas gott om fika så att ni orkar plugga hela kvällen. Ni ska ju ändå klara av att ha kul en vecka till!"}
+                    fbLink={"https://www.facebook.com/events/316458484127548/"}
                 />
                 <hr/>
                 <EventEntry
                     title={"METAhäng: TBA"}
                     date={"3:e oktober"}
                     dateTime={new Date(2023, 10, 3)}
-                    timeAndPlace={"17:30 TBA"}
+                    timeAndPlace={"17:00 TBA"}
                     noTicket={true}
                     info={"TBD"}
                 />
@@ -143,7 +151,7 @@ const Timeline = () => {
                     title={"Företagspub"}
                     date={"4:e oktober"}
                     dateTime={new Date(2023, 10, 4)}
-                    timeAndPlace={"17:30 TBA"}
+                    timeAndPlace={"17:17 TBA"}
                     noTicket={true}
                     info={"Ett företag kommer att besöka puben för att berätta mer om sig själva och bjuda på god mat och dryck!"}
                     alcoholEvent={true}
@@ -161,30 +169,32 @@ const Timeline = () => {
                     title={"Spextakulär karaokepub"}
                     date={"6:e oktober"}
                     dateTime={new Date(2023, 10, 6)}
-                    timeAndPlace={"17:30 TBA"}
+                    timeAndPlace={"17:17 TBA"}
                     noTicket={true}
                     info={"Sång + öl, kan det bli bättre? METAspexet kommer att bjuda på liveunderhållning och Ada tillsammans med Project Pride dammar av karaokemaskinen. Kom och sjung för glatta livet! Om du inte är en sångfågel - kom och häng och lyssna på när andra sjunger!"}
                     alcoholEvent={true}
+                    fbLink={"https://www.facebook.com/events/315102227643405/"}
                 />
                 <hr/>
                 <EventEntry
                     title={"Födelsedagskalas – sektionen fyller 40!"}
                     date={"7:e oktober"}
                     dateTime={new Date(2023, 10, 7)}
-                    timeAndPlace={"TBA"}
+                    timeAndPlace={"13:37"}
                     noTicket={true}
                     info={"Kom och fira sektionens födelsedag! Den 7 oktober fyller sektionen officiellt 40 år och vi kommer att ha ett riktigt födelsedagskalas med tårta och allt vad det hör till. Hurra! Hurra! Hurra!"}
                     alcoholEvent={false}
+                    fbLink={"https://www.facebook.com/events/669348288135145/"}
                 />
                 <hr/>
                 <EventEntry
                     title={"Lunchföreläsning"}
                     date={"9:e oktober"}
                     dateTime={new Date(2023, 10, 9)}
-                    timeAndPlace={"TBA"}
+                    timeAndPlace={"12:00"}
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
-                    info={"SAAB bjuder in till lunchföreläsning! Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
+                    info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
                 />
                 <hr/>
                 <EventEntry
@@ -193,7 +203,7 @@ const Timeline = () => {
                     dateTime={new Date(2023, 10, 11)}
                     timeAndPlace={"Nymble"}
                     info={"Gör er plikt! Hjälp sektionen arrangera den största D-Dagen någonsin."}
-                    alcoholEvent={true}
+                    alcoholEvent={false}
                 />
                 <hr/>
                 <EventEntry
@@ -203,6 +213,7 @@ const Timeline = () => {
                     timeAndPlace={"Sent på kvällen"}
                     info={"Men hallå, D-Dagen är ju inte ett dJubileumsevent?! Jo, för i år vill vi välkomna alumner till efterköret! D-Dagen kommer att bjuda in en live-artist till efterköret, så det blir en kväll utöver det vanliga! Förvänta er barbongar, bra musik och cerise flugor."}
                     alcoholEvent={true}
+                    fbLink={"https://www.facebook.com/kongligddagen"}
                 />
                 <hr/>
                 <EventEntry
