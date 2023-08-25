@@ -99,7 +99,7 @@ const Timeline = () => {
                 <hr/>
                 <EventEntry
                     title={"Sektionshistoriaföreläsning och Sångarafton"}
-                    date={"28:e september"}
+                    date={"29:e september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"17:00 TBA"}
                     noTicket={false}
