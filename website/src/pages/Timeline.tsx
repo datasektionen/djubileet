@@ -122,7 +122,7 @@ const Timeline = () => {
  		 />
                 <hr/>
                 <EventEntry
-                    title={"Pluggstuga"}
+                    title={"Pluggstuga med Studienämnden"}
                     date={"2:a oktober"}
                     dateTime={new Date(2023, 10, 2)}
                     timeAndPlace={"17:30 TBA"}
