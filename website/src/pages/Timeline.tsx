@@ -45,7 +45,7 @@ const Timeline = () => {
                 <EventEntry
                     date={"25:e september"}
                     dateTime={new Date(2023, 9, 25)}
-                    title={"Syplunta + tävling med Färgfemman"}
+                    title={"Syplunta med Färgfemman"}
                     timeAndPlace={"17:30 META"}
                     noTicket={true}
                     info={"Färgfemman är tillbaka! Kom och ta en öl eller hälsa på Loket och vinn i Färgfemman! Förvänta er retro märken och sytävling. "}
@@ -163,7 +163,7 @@ const Timeline = () => {
                     dateTime={new Date(2023, 10, 6)}
                     timeAndPlace={"17:30 TBA"}
                     noTicket={true}
-                    info={"Sång + öl, kan det bli bättre? METAspexet kommer att göra ett framträdande och Ada tillsammans med Project Pride dammar av karaokemaskinen. Kom och sjung för glatta livet! Om du inte är en sångfågel - kom och häng och lyssna på när andra sjunger!"}
+                    info={"Sång + öl, kan det bli bättre? METAspexet kommer att bjuda på liveunderhållning och Ada tillsammans med Project Pride dammar av karaokemaskinen. Kom och sjung för glatta livet! Om du inte är en sångfågel - kom och häng och lyssna på när andra sjunger!"}
                     alcoholEvent={true}
                 />
                 <hr/>
@@ -178,11 +178,20 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
+                    title={"D-Dagen setup"}
+                    date={"11:e oktober"}
+                    dateTime={new Date(2023, 10, 11)}
+                    timeAndPlace={"Nymble"}
+                    info={"Gör er plikt! Hjälp sektionen arrangera den största D-Dagen någonsin."}
+                    alcoholEvent={true}
+                />
+                <hr/>
+                <EventEntry
                     title={"D-Dagen"}
                     date={"12:e oktober"}
                     dateTime={new Date(2023, 10, 12)}
                     timeAndPlace={"Sent på kvällen"}
-                    info={"Men hallå, D-Dagen är ju inte ett dJubileumsevent?! Jo, för i år vill vi välkomna alumner till efterköret! Vi kommer att bjuda in en live-artist till efterköret, så det blir en kväll utöver det vanliga! Förvänta er barbongar, bra musik och cerise flugor."}
+                    info={"Men hallå, D-Dagen är ju inte ett dJubileumsevent?! Jo, för i år vill vi välkomna alumner till efterköret! D-Dagen kommer att bjuda in en live-artist till efterköret, så det blir en kväll utöver det vanliga! Förvänta er barbongar, bra musik och cerise flugor."}
                     alcoholEvent={true}
                 />
                 <hr/>
