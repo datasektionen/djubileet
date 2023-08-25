@@ -132,7 +132,7 @@ const Timeline = () => {
                     title={"Pluggstuga med Studienämnden"}
                     date={"2:a oktober"}
                     dateTime={new Date(2023, 10, 2)}
-                    timeAndPlace={"17:00 TBA"}
+                    timeAndPlace={"17:00 META"}
                     noTicket={true}
                     info={"Efter en vecka fullspäckad med roliga aktiviteter är det dags att ta igen plugget lite. Självklart kommer Studienämnden till undsättning och håller i en pluggstuga! Kom fikasugen, det kommer finnas gott om fika så att ni orkar plugga hela kvällen. Ni ska ju ändå klara av att ha kul en vecka till!"}
                     fbLink={"https://www.facebook.com/events/316458484127548/"}
@@ -142,7 +142,7 @@ const Timeline = () => {
                     title={"METAhäng: TBA"}
                     date={"3:e oktober"}
                     dateTime={new Date(2023, 10, 3)}
-                    timeAndPlace={"17:00 TBA"}
+                    timeAndPlace={"17:00 META"}
                     noTicket={true}
                     info={"TBD"}
                 />
@@ -151,7 +151,7 @@ const Timeline = () => {
                     title={"Företagspub"}
                     date={"4:e oktober"}
                     dateTime={new Date(2023, 10, 4)}
-                    timeAndPlace={"17:17 TBA"}
+                    timeAndPlace={"17:17 META"}
                     noTicket={true}
                     info={"Ett företag kommer att besöka puben för att berätta mer om sig själva och bjuda på god mat och dryck!"}
                     alcoholEvent={true}
@@ -169,7 +169,7 @@ const Timeline = () => {
                     title={"Spextakulär karaokepub"}
                     date={"6:e oktober"}
                     dateTime={new Date(2023, 10, 6)}
-                    timeAndPlace={"17:17 TBA"}
+                    timeAndPlace={"17:17 META"}
                     noTicket={true}
                     info={"Sång + öl, kan det bli bättre? METAspexet kommer att bjuda på liveunderhållning och Ada tillsammans med Project Pride dammar av karaokemaskinen. Kom och sjung för glatta livet! Om du inte är en sångfågel - kom och häng och lyssna på när andra sjunger!"}
                     alcoholEvent={true}
@@ -180,7 +180,7 @@ const Timeline = () => {
                     title={"Födelsedagskalas – sektionen fyller 40!"}
                     date={"7:e oktober"}
                     dateTime={new Date(2023, 10, 7)}
-                    timeAndPlace={"13:37"}
+                    timeAndPlace={"13:37 TBA"}
                     noTicket={true}
                     info={"Kom och fira sektionens födelsedag! Den 7 oktober fyller sektionen officiellt 40 år och vi kommer att ha ett riktigt födelsedagskalas med tårta och allt vad det hör till. Hurra! Hurra! Hurra!"}
                     alcoholEvent={false}
@@ -191,7 +191,7 @@ const Timeline = () => {
                     title={"Lunchföreläsning"}
                     date={"9:e oktober"}
                     dateTime={new Date(2023, 10, 9)}
-                    timeAndPlace={"12:00"}
+                    timeAndPlace={"12:00 TBA"}
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
                     info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
