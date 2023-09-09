@@ -227,6 +227,7 @@
   background: linear-gradient(to right, transparent 0%, #ffffff11 50%, transparent 100%);
 }
 
+
 .event-date {
   margin: 0;
   padding: 0 15px 0 5%;
@@ -235,10 +236,60 @@
   text-align: end;
   vertical-align: middle;
 }
+.event-date-info {
+  margin: 0;
+  min-width: 120pt;
+  height: 100%;
+  text-align: end;
+  vertical-align: middle;
+}
+
+.event-date-row {
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  vertical-align: middle;
+}
+
+.event-date-img {
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  vertical-align: middle;
+}
 
 .event-date p {
   padding: 0;
   margin: 0;
+}
+
+.event-date img {
+  margin-top: -10pt;
+  margin-bottom: 0;
+  padding: -100pt;
+  width: 100%;
+}
+
+.mobile-img{
+  text-align: end;
+  display: none;
+}
+
+@media (orientation: portrait){
+  .event-date img {
+    padding-top: 20pt;
+    width: inherit;
+    height: 50pt;
+  }
+
+  .event-date-img {
+    display: none;
+  }
+
+  .mobile-img{
+    display: block;
+  }
+
 }
 
 .event-date-sub {
