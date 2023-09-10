@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/App.css';
 import EventEntry from "../components/EventEntry";
 import vermiculus from "../img/vermiculus.png"
+import fra from "../img/FRA.png"
 
 const Timeline = () => {
     return (
@@ -77,7 +78,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"Lunchföreläsning"}
+                    title={"Lunchföreläsning med FRA"}
                     date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"12:00 TBA"}
@@ -85,6 +86,7 @@ const Timeline = () => {
                     temporaryText="Sign-up kommer senare" 
                     info={"Förvänta er gratis mat och supertrevliga företagsrepresentanter."}
                     fbLink={"https://www.facebook.com/events/611799241100312/"}
+                    image={fra}
                 />
                 <hr/>
                 <EventEntry
