@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/App.css';
 import EventEntry from "../components/EventEntry";
+import vermiculus from "../img/vermiculus.png"
+import fra from "../img/FRA.png"
 
 const Timeline = () => {
     return (
@@ -76,7 +78,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"Lunchföreläsning"}
+                    title={"Lunchföreläsning med FRA"}
                     date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"12:00 TBA"}
@@ -84,6 +86,7 @@ const Timeline = () => {
                     temporaryText="Sign-up kommer senare" 
                     info={"Förvänta er gratis mat och supertrevliga företagsrepresentanter."}
                     fbLink={"https://www.facebook.com/events/611799241100312/"}
+                    image={fra}
                 />
                 <hr/>
                 <EventEntry
@@ -148,12 +151,16 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"Företagspub"}
+                    title={"Företagspub med Vermiculus"}
                     date={"4 oktober"}
                     dateTime={new Date(2023, 10, 4)}
                     timeAndPlace={"17:17 META"}
                     noTicket={true}
-                    info={"Ett företag kommer att besöka puben för att berätta mer om sig själva och bjuda på god mat och dryck!"}
+                    image={vermiculus}
+                    imageTopMargin={-65}
+                    info={"Vad är bättre än en pub? Jo en företagspub!<br/><br/> " +
+                    "Vermiculus bygger revolutionerande system åt världens börser, clearinghus och värdepapperscentraler. Med sin innovativa och avancerade trading-, clearing- och CSD-teknik har fintech-bolaget tagit världens finansmarknader med storm och kommer nu tillsammans med NLG och DKM att hålla i årets första företagspub! \n" +
+                    "Kom och häng med Vermiculus som bjuder på god mat, drinkbiljetter och ett exklusivt märke till den som beställer Vermiculus egna drink i baren!\n"}
                     alcoholEvent={true}
                 />
                 <hr/>

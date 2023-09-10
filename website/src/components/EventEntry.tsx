@@ -1,8 +1,11 @@
 import React, {useState} from "react";
 
-function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "", interestLink = "", info = "",temporaryText = "", ticketUnreleased = false, ticketSoldOut = false, noTicket = false, dateTime, alcoholEvent = false} :
+function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "", interestLink = "", info = "",
+                        temporaryText = "", ticketUnreleased = false, ticketSoldOut = false, noTicket = false,
+                        dateTime, alcoholEvent = false, image = "", imageTopMargin = 0} :
                         {date : string, title : string, timeAndPlace? : string, fbLink? : string, ticketLink? : string, interestLink? : string, info? : string,
-                            ticketUnreleased? : boolean, ticketSoldOut? : boolean, noTicket? : boolean, dateTime : Date, alcoholEvent? : boolean, temporaryText? : string} ) {
+                            ticketUnreleased? : boolean, ticketSoldOut? : boolean, noTicket? : boolean, dateTime : Date,
+                            alcoholEvent? : boolean, temporaryText? : string, image? : string, imageTopMargin? : number} ) {
 
     const [expanded, setExpanded] = useState(false);
 
@@ -11,15 +14,36 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
         (dateTime.getMonth() > today.getMonth() && dateTime.getFullYear() == today.getFullYear()) ||
         (dateTime.getDay() > today.getDay() && dateTime.getMonth() == today.getMonth() && dateTime.getFullYear() == today.getFullYear()));
 
+    let imgStyle: React.CSSProperties = {
+        marginTop: imageTopMargin,
+
+    };
+
+    if(image==""){
+        imgStyle.display = "none";
+    }
+
+
     return (
         <div className={hasHappened?"disabled-event-row":"event-row"}  onClick={() => setExpanded(!expanded)}>
             <td className={"event-date"}>
-                <p>{date}</p>
-                <div className={"event-date-line"}>
-                    <p className={"event-date-sub"} hidden={timeAndPlace === ""}>{timeAndPlace}</p>
-                    <p className={"serving-alcohol"} hidden={!alcoholEvent} title="På det här eventet kommer alkohol serveras">🥂</p>
-                </div>
-                
+                <table className={"event-date-row"}>
+                    <tr className={"event-date-row"}>
+                        <td className={"event-date-img"}>
+                            <img hidden={image==""} src={image}/>
+                        </td>
+                        <td className={"event-date-info"}>
+                            <p>{date}</p>
+                            <div className={"event-date-line"}>
+                                <p className={"event-date-sub"} hidden={timeAndPlace === ""}>{timeAndPlace}</p>
+                                <p className={"serving-alcohol"} hidden={!alcoholEvent} title="På det här eventet kommer alkohol serveras">🥂</p>
+                            </div>
+                            <div className={"mobile-img"}>
+                                <img style={imgStyle} src={image}/>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </td>
             <td  className={"event-info"}>
                 <p className={"event-title"}>
