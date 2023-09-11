@@ -62,7 +62,8 @@ const Timeline = () => {
                     timeAndPlace={"12:00 TBD"}
                     noTicket={false}
                     ticketLink={"https://forms.gle/SVt11Po6RpvctkSX8"}
-                    info={"På Lunchföreläsning: Var det bättre förr? så kommer vi att bjuda in två av våra hedersmedlemmar. Nämligen den gamle programmansvarige Stefan Arnborg och den gamle kanslichefen Inger Larsson för att berätta om både roliga och kusliga händelser i Datateknikprogrammets långa historia."}
+                    fbLink={"https://www.facebook.com/events/794051115793339"}
+                    info={"På Lunchföreläsning: Var det bättre förr? så kommer vi att bjuda in två av våra hedersmedlemmar. Nämligen den gamle programmansvarige Stefan Arnborg och den gamle kanslichefen Inger Larsson för att berätta om både roliga och kusliga händelser i Datateknikprogrammets långa historia. Fyll i formuläret om du vill ha lunch, det öppnar 13 september kl 13:37"}
                 />
                 <EventEntry
                     date={"26 september"}
@@ -90,19 +91,18 @@ const Timeline = () => {
                     title={"Lunchföreläsning med FRA"}
                     date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
-                    timeAndPlace={"12:00 TBA"}
+                    timeAndPlace={"12:00 TBD"}
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
                     info={"Förvänta er gratis mat och supertrevliga företagsrepresentanter."}
                     fbLink={"https://www.facebook.com/events/611799241100312/"}
                     image={fra}
                 />
-                <hr/>
                 <EventEntry
                     title={"Bio på campus"}
                     date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
-                    timeAndPlace={"17:00 TBA"}
+                    timeAndPlace={"17:00 TBD"}
                     temporaryText="Sign-up kommer senare" 
                     noTicket={false}
                     info={"Vem älskar inte en biokväll? Koppla av efter plugget med en riktigt grym rulle från 80-talet! Det blir dessutom en double feature-visning med en film om någon jämngammal med sektionen! QN och dJubileet kommer att bjuda på popcorn i äkta bio-anda."}
@@ -113,7 +113,7 @@ const Timeline = () => {
                     title={"Sektionshistoriaföreläsning och Sångarafton"}
                     date={"29 september"}
                     dateTime={new Date(2023, 9, 28)}
-                    timeAndPlace={"17:00 TBA"}
+                    timeAndPlace={"17:00 META"}
                     noTicket={false}
                     info={"Kom och få en inblick i sektionens förflutna och öva upp sångrösten inför banquetten! Denna kväll bjuder på en föreläsning som hålls av Sektionshistoriker och man får dessutom gratis käk! Vi avslutar kvällen med sångarafton tillsammans med Sångledare och Scala."}
                     alcoholEvent={true}
@@ -151,12 +151,13 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"METAhäng: TBA"}
+                    title={"METAhäng: DESCathon"}
                     date={"3 oktober"}
                     dateTime={new Date(2023, 10, 3)}
                     timeAndPlace={"17:00 META"}
                     noTicket={true}
-                    info={"TBD"}
+                    fbLink={"https://www.facebook.com/events/295533949843241"}
+                    info={"Kom och häng i META! Under det här METAhänget så kommer DESC att anordna ett (för tillfället) hemligt event som vi lovar att ni inte vill missa! Ni kommer såklart utöver det spela brädspel, hänga med folk, och fortsätta att klä dJu(be)lgranen. Förvänta er en spontan timme av Ultima Online!"}
                 />
                 <hr/>
                 <EventEntry
@@ -183,12 +184,13 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"Spextakulär karaokepub"}
+                    title={"Spextakulär Karaokepub: Födelsedagsfest – Kom och Fira!"}
                     date={"6 oktober"}
                     dateTime={new Date(2023, 10, 6)}
                     timeAndPlace={"17:17 META"}
                     noTicket={true}
-                    info={"Sång + öl, kan det bli bättre? METAspexet kommer att bjuda på liveunderhållning och Ada tillsammans med Project Pride dammar av karaokemaskinen. Kom och sjung för glatta livet! Om du inte är en sångfågel - kom och häng och lyssna på när andra sjunger!"}
+                    info={"Sång + öl, kan det bli bättre? METAspexet kommer att bjuda på liveunderhållning och Ada tillsammans med Project Pride dammar av karaokemaskinen. Kom och sjung för glatta livet! Om du inte är en sångfågel - kom och häng och lyssna på när andra sjunger!<br/>" +
+                "Självklart kommer vi vid tolvslaget fira att sektionen fyller 40. Det kommer hända en väldigt väldigt väldigt väldigt häftig grej så missa inte detta."}
                     alcoholEvent={true}
                     fbLink={"https://www.facebook.com/events/315102227643405/"}
                 />
@@ -206,7 +208,17 @@ const Timeline = () => {
                     title={"Lunchföreläsning"}
                     date={"9 oktober"}
                     dateTime={new Date(2023, 10, 9)}
-                    timeAndPlace={"12:00 TBA"}
+                    timeAndPlace={"12:00 TBD"}
+                    noTicket={false}
+                    temporaryText="Sign-up kommer senare" 
+                    info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
+                />
+                <hr/>
+                <EventEntry
+                    title={"Lunchföreläsning"}
+                    date={"10 oktober"}
+                    dateTime={new Date(2023, 10, 9)}
+                    timeAndPlace={"12:00 TBD"}
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
                     info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
