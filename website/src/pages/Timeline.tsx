@@ -189,7 +189,7 @@ const Timeline = () => {
                     dateTime={new Date(2023, 10, 6)}
                     timeAndPlace={"17:17 META"}
                     noTicket={true}
-                    info={"Sång + öl, kan det bli bättre? METAspexet kommer att bjuda på liveunderhållning och Ada tillsammans med Project Pride dammar av karaokemaskinen. Kom och sjung för glatta livet! Om du inte är en sångfågel - kom och häng och lyssna på när andra sjunger!<br/>" +
+                    info={"Sång + öl, kan det bli bättre? METAspexet kommer att bjuda på liveunderhållning och Ada tillsammans med Project Pride dammar av karaokemaskinen. Kom och sjung för glatta livet! Om du inte är en sångfågel - kom och häng och lyssna på när andra sjunger!<br/><br/>" +
                 "Självklart kommer vi vid tolvslaget fira att sektionen fyller 40. Det kommer hända en väldigt väldigt väldigt väldigt häftig grej så missa inte detta."}
                     alcoholEvent={true}
                     fbLink={"https://www.facebook.com/events/315102227643405/"}
@@ -199,7 +199,6 @@ const Timeline = () => {
                     title={"Sektionen fyller 40!"}
                     date={"7 oktober"}
                     dateTime={new Date(2023, 10, 7)}
-                    noTicket={true}
                     info={"Den 7 oktober fyller sektionen officiellt 40 år. Hurra! Hurra! Hurra! Vi har inget event denna dag."}
                     alcoholEvent={false}
                 />
