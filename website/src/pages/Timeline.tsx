@@ -58,6 +58,15 @@ const Timeline = () => {
                 <EventEntry
                     date={"26 september"}
                     dateTime={new Date(2023, 9, 26)}
+                    title={"Lunchföreläsning: Var det bättre förr?"}
+                    timeAndPlace={"12:00 TBD"}
+                    noTicket={false}
+                    ticketLink={"https://forms.gle/SVt11Po6RpvctkSX8"}
+                    info={"På Lunchföreläsning: Var det bättre förr? så kommer vi att bjuda in två av våra hedersmedlemmar. Nämligen den gamle programmansvarige Stefan Arnborg och den gamle kanslichefen Inger Larsson för att berätta om både roliga och kusliga händelser i Datateknikprogrammets långa historia."}
+                />
+                <EventEntry
+                    date={"26 september"}
+                    dateTime={new Date(2023, 9, 26)}
                     title={"METAhäng: Pysselstuga och märkestävling"}
                     timeAndPlace={"17:00 META"}
                     noTicket={true}
@@ -106,9 +115,9 @@ const Timeline = () => {
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"17:00 TBA"}
                     noTicket={false}
-                    temporaryText="Sign-up kommer senare" 
                     info={"Kom och få en inblick i sektionens förflutna och öva upp sångrösten inför banquetten! Denna kväll bjuder på en föreläsning som hålls av Sektionshistoriker och man får dessutom gratis käk! Vi avslutar kvällen med sångarafton tillsammans med Sångledare och Scala."}
                     alcoholEvent={true}
+                    ticketLink={"https://forms.gle/WS75yp4VWvtC4iEC6"}
                     fbLink={"https://www.facebook.com/events/622134180055778/"}
                 />
                 <hr/>
@@ -165,10 +174,11 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"TBA"}
+                    title={"TBD *Inställt pga regn*"}
                     date={"5 oktober"}
                     dateTime={new Date(2023, 10, 5)}
                     timeAndPlace={"TBD"}
+                    info={"Vila upp er"}
                     //info={"Kom och få en inblick i sektionens förflutna och öva upp sångrösten inför banquetten! Denna kväll bjuder på en föreläsning som hålls av Sektionshistoriker och man får dessutom gratis käk! Vi avslutar kvällen med sångarafton tillsammans med Sångledare och Scala."}
                 />
                 <hr/>
@@ -184,14 +194,12 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"Födelsedagskalas – sektionen fyller 40!"}
+                    title={"Sektionen fyller 40!"}
                     date={"7 oktober"}
                     dateTime={new Date(2023, 10, 7)}
-                    timeAndPlace={"13:37 TBA"}
                     noTicket={true}
-                    info={"Kom och fira sektionens födelsedag! Den 7 oktober fyller sektionen officiellt 40 år och vi kommer att ha ett riktigt födelsedagskalas med tårta och allt vad det hör till. Hurra! Hurra! Hurra!"}
+                    info={"Den 7 oktober fyller sektionen officiellt 40 år. Hurra! Hurra! Hurra! Vi har inget event denna dag."}
                     alcoholEvent={false}
-                    fbLink={"https://www.facebook.com/events/669348288135145/"}
                 />
                 <hr/>
                 <EventEntry
