@@ -76,7 +76,7 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"XL-Pub feat. DKM"}
+                    title={"Onsdagspub XL feat. DKM"}
                     date={"27 september"}
                     dateTime={new Date(2023, 9, 27)}
                     timeAndPlace={"17:17 META"}
@@ -199,12 +199,12 @@ const Timeline = () => {
                     title={"Sektionen fyller 40!"}
                     date={"7 oktober"}
                     dateTime={new Date(2023, 10, 7)}
-                    info={"Den 7 oktober fyller sektionen officiellt 40 år. Hurra! Hurra! Hurra! Vi har inget event denna dag."}
+                    info={"Den 7 oktober fyller sektionen officiellt 40 år. Hurra! Hurra! Hurra! <br/> <br/> Vi har inget event denna dag."}
                     alcoholEvent={false}
                 />
                 <hr/>
                 <EventEntry
-                    title={"Lunchföreläsning"}
+                    title={"Lunchföreläsning med SAAB"}
                     date={"9 oktober"}
                     dateTime={new Date(2023, 10, 9)}
                     timeAndPlace={"12:00 TBD"}
@@ -214,22 +214,13 @@ const Timeline = () => {
                 />
                 <hr/>
                 <EventEntry
-                    title={"Lunchföreläsning"}
+                    title={"Lunchföreläsning med Arbetsförmedlingen"}
                     date={"10 oktober"}
                     dateTime={new Date(2023, 10, 9)}
                     timeAndPlace={"12:00 TBD"}
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
                     info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
-                />
-                <hr/>
-                <EventEntry
-                    title={"D-Dagen setup"}
-                    date={"11 oktober"}
-                    dateTime={new Date(2023, 10, 11)}
-                    timeAndPlace={"Nymble"}
-                    info={"Gör er plikt! Hjälp sektionen arrangera den största D-Dagen någonsin."}
-                    alcoholEvent={false}
                 />
                 <hr/>
                 <EventEntry
