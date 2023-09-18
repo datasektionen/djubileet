@@ -3,6 +3,8 @@ import '../css/App.css';
 import EventEntry from "../components/EventEntry";
 import vermiculus from "../img/vermiculus.png"
 import fra from "../img/FRA.png"
+import af from "../img/af.png"
+import sab from "../img/saab.png"
 
 const Timeline = () => {
     return (
@@ -65,6 +67,7 @@ const Timeline = () => {
                     fbLink={"https://www.facebook.com/events/794051115793339"}
                     info={"På Lunchföreläsning: Var det bättre förr? så kommer vi att bjuda in två av våra hedersmedlemmar. Nämligen den gamle programmansvarige Stefan Arnborg och den gamle kanslichefen Inger Larsson för att berätta om både roliga och kusliga händelser i Datateknikprogrammets långa historia. Fyll i formuläret om du vill ha lunch, det öppnar 13 september kl 13:37"}
                 />
+                <hr/>
                 <EventEntry
                     date={"26 september"}
                     dateTime={new Date(2023, 9, 26)}
@@ -98,6 +101,7 @@ const Timeline = () => {
                     fbLink={"https://www.facebook.com/events/611799241100312/"}
                     image={fra}
                 />
+                <hr/>
                 <EventEntry
                     title={"Bio på campus"}
                     date={"28 september"}
@@ -211,6 +215,7 @@ const Timeline = () => {
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
                     info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
+                    image={sab}
                 />
                 <hr/>
                 <EventEntry
@@ -221,6 +226,7 @@ const Timeline = () => {
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
                     info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
+                    image={af}
                 />
                 <hr/>
                 <EventEntry

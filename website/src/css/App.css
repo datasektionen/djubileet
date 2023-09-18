@@ -264,10 +264,12 @@
 }
 
 .event-date img {
-  margin-top: -10pt;
-  margin-bottom: 0;
-  padding: -100pt;
-  width: 100%;
+  vertical-align: middle;
+  margin: -10px;
+  width: auto;
+  height: auto;
+  max-height: 120px;
+  max-width: 100%;
 }
 
 .mobile-img{
