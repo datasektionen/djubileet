@@ -29,9 +29,9 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
             <td className={"event-date"}>
                 <table className={"event-date-row"}>
                     <tr className={"event-date-row"}>
-                        <td className={"event-date-img"}>
+                        <div className={"event-date-img"}>
                             <img hidden={image==""} src={image}/>
-                        </td>
+                        </div>
                         <td className={"event-date-info"}>
                             <p>{date}</p>
                             <div className={"event-date-line"}>
@@ -39,7 +39,7 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
                                 <p className={"serving-alcohol"} hidden={!alcoholEvent} title="På det här eventet kommer alkohol serveras">🥂</p>
                             </div>
                             <div className={"mobile-img"}>
-                                <img style={imgStyle} src={image}/>
+                                <img hidden={image==""}  style={imgStyle} src={image}/>
                             </div>
                         </td>
                     </tr>
