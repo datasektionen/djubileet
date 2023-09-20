@@ -277,6 +277,11 @@
   display: none;
 }
 
+.mobile-img img{
+  object-fit: contain;
+}
+
+
 @media (orientation: portrait){
   .event-date img {
     padding-top: 20pt;
