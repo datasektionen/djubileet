@@ -96,9 +96,15 @@ const Timeline = () => {
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"12:00 TBD"}
                     noTicket={false}
-                    temporaryText="Sign-up kommer senare" 
-                    info={"Förvänta er gratis mat och supertrevliga företagsrepresentanter."}
+                    info={"Hur är det att arbeta med teknikutveckling på en av Sveriges hemligaste myndigheter?<br/><br/>" +
+                    "FRA är en alldeles vanlig arbetsplats - men ändå helt unik.<br/>" +
+                    "FRA arbetar med signalspaning och cybersäkerhet. Vi är en civil myndighet sin utgör en del av Sveriges underrättelsetjänst. Myndigheten bidrar till att skydda Sverige och svenska intressen genom att leverera unik information om viktiga utländska förhållanden till våra uppdragsgivare.<br/>" +
+                    "Den tekniska avdelningen på FRA tar fram många av de lösningar som behövs för att kunna bedriva vår verksamhet. Mycket av det vi behöver går inte att hitta någon annanstans - den tekniska spännvidden hos oss sträcker sig från normal IT-drift till avancerad signalbehandling och superdatorer.<br/>" +
+                    "Vi är just nu inne i en expansiv fas, FRA växer och kommer att fortsätta göra det under de kommande åren. Det gör att även teknikavdelningen växer och vi letar därför efter dig som vill jobba hos oss.<br/><br/>" +
+                    "Kom så bjuder vi på mat och berättar mer om hur arbetet på den tekniska avdelningen hos en av Sveriges hemligaste myndigheter fungerar."}
                     fbLink={"https://www.facebook.com/events/611799241100312/"}
+                    ticketLink={"https://forms.gle/K8zKfqZLvFhbksAn6"}
+                    ticketText={"Sign-up"}
                     image={fra}
                 />
                 <hr/>

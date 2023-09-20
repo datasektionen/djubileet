@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 
 function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "", interestLink = "", info = "",
-                        temporaryText = "", ticketUnreleased = false, ticketSoldOut = false, noTicket = false,
+                        temporaryText = "", ticketText = "Biljetter", ticketUnreleased = false, ticketSoldOut = false, noTicket = false,
                         dateTime, alcoholEvent = false, image = "", imageTopMargin = 0} :
                         {date : string, title : string, timeAndPlace? : string, fbLink? : string, ticketLink? : string, interestLink? : string, info? : string,
                             ticketUnreleased? : boolean, ticketSoldOut? : boolean, noTicket? : boolean, dateTime : Date,
-                            alcoholEvent? : boolean, temporaryText? : string, image? : string, imageTopMargin? : number} ) {
+                            alcoholEvent? : boolean, temporaryText? : string, ticketText? : string, image? : string, imageTopMargin? : number} ) {
 
     const [expanded, setExpanded] = useState(false);
 
@@ -54,7 +54,7 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
                         {temporaryText}
                     </span>:null}
                     {!(ticketLink === "" || ticketUnreleased || hasHappened)?<a className={"App-schedule-link"} href={ticketLink} target="_blank" onClick={(e) => e.stopPropagation()}>
-                        {ticketSoldOut?"Biljetter (Slutsålt)":"Biljetter"}
+                        {ticketSoldOut?ticketText+" (Slutsålt)":ticketText}
                     </a>:null}
                     {interestLink !== "" && !hasHappened?<a className={"App-schedule-link"} href={interestLink} target="_blank" onClick={(e) => e.stopPropagation()}>
                         Reservlista
