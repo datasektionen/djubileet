@@ -52,7 +52,10 @@ const Timeline = () => {
                     title={"Syplunta med Färgfemman"}
                     timeAndPlace={"17:00 META"}
                     noTicket={true}
-                    info={"Färgfemman är tillbaka! Kom och ta en öl eller hälsa på Loket och vinn i Färgfemman! Förvänta er retro märken och sytävling. "}
+                    info={"dJubileet 2023 presenterar stolt det absolut första eventet för att kickstarta dJubileumsveckorna: SYPLUNTAN!<br></br>" +
+                    "Under denna kväll kan du komma och testa din lycka då vi kör en favorit i repris från i våras, nämligen Färgfemman! Dessutom är baren är öppen och CSN har precis trillat in på kontot, är det du som blir kung i baren?<br></br>" + 
+                    "Utöver detta kommer vi även att ha en sytävling, så glöm inte att ta med dig ovven och sykitet! Prylis kommer att ha försäljning under kvällen om du behöver köpa sykit, fylla på med märken eller kanske köpa några spegater inför banquetten? <br></br>" +
+                    "Missa inte detta, nu börjar firandet!"}
                     alcoholEvent={true}
                     fbLink={"https://www.facebook.com/events/296431496304196/"}
                 />
