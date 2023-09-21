@@ -61,7 +61,7 @@ const Timeline = () => {
                     date={"26 september"}
                     dateTime={new Date(2023, 9, 26)}
                     title={"Lunchföreläsning: Var det bättre förr?"}
-                    timeAndPlace={"12:00 TBD"}
+                    timeAndPlace={"12:00 V2"}
                     noTicket={false}
                     ticketLink={"https://forms.gle/SVt11Po6RpvctkSX8"}
                     fbLink={"https://www.facebook.com/events/794051115793339"}
@@ -94,7 +94,7 @@ const Timeline = () => {
                     title={"Lunchföreläsning med FRA"}
                     date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
-                    timeAndPlace={"12:00 TBD"}
+                    timeAndPlace={"12:00 V1"}
                     noTicket={false}
                     info={"Hur är det att arbeta med teknikutveckling på en av Sveriges hemligaste myndigheter?<br/><br/>" +
                     "FRA är en alldeles vanlig arbetsplats - men ändå helt unik.<br/>" +
@@ -112,10 +112,11 @@ const Timeline = () => {
                     title={"Bio på campus"}
                     date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
-                    timeAndPlace={"17:00 TBD"}
+                    timeAndPlace={"17:00 Q1"}
                     temporaryText="Sign-up kommer senare" 
                     noTicket={false}
-                    info={"Vem älskar inte en biokväll? Koppla av efter plugget med en riktigt grym rulle från 80-talet! Det blir dessutom en double feature-visning med en film om någon jämngammal med sektionen! QN och dJubileet kommer att bjuda på popcorn i äkta bio-anda."}
+                    info={"Vem älskar inte en biokväll? Koppla av efter plugget med en riktigt grym rulle från 83! Det blir dessutom en double feature-visning med en film om någon jämngammal med sektionen! QN och dJubileet kommer att bjuda på snacks i äkta bio-anda.<br></br>" + 
+                    "Vi kommer att börja med den första filmen klockan 18:00 i Q1, så ni som vill käka innan hinner göra det! Man är välkommen att mingla i lobbyn utanför från 17:30. Den andra filmen drar igång 20:15 så ni som inte kan vara där 18:00 har ändå någonting att se fram emot."}
                     fbLink={"https://www.facebook.com/events/200407242835404/"}
                 />
                 <hr/>
@@ -125,7 +126,7 @@ const Timeline = () => {
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"17:00 META"}
                     noTicket={false}
-                    info={"Kom och få en inblick i sektionens förflutna och öva upp sångrösten inför banquetten! Denna kväll bjuder på en föreläsning som hålls av Sektionshistoriker och man får dessutom gratis käk! Vi avslutar kvällen med sångarafton tillsammans med Sångledare och Scala."}
+                    info={"Kom och få en inblick i sektionens förflutna och öva upp sångrösten inför banquetten! Denna kväll bjuder på en föreläsning som hålls av Sektionshistoriker och man får dessutom gratis käk! Vi avslutar kvällen med sångarafton tillsammans med Sångledare och Scala.<br></br>" + "Baren kommer vara öppen men det kommer inte vara öppen bar."}
                     alcoholEvent={true}
                     ticketLink={"https://forms.gle/WS75yp4VWvtC4iEC6"}
                     fbLink={"https://www.facebook.com/events/622134180055778/"}
@@ -217,7 +218,7 @@ const Timeline = () => {
                     title={"Lunchföreläsning med SAAB"}
                     date={"9 oktober"}
                     dateTime={new Date(2023, 10, 9)}
-                    timeAndPlace={"12:00 TBD"}
+                    timeAndPlace={"12:00 V1"}
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
                     info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
@@ -228,7 +229,7 @@ const Timeline = () => {
                     title={"Lunchföreläsning med Arbetsförmedlingen"}
                     date={"10 oktober"}
                     dateTime={new Date(2023, 10, 9)}
-                    timeAndPlace={"12:00 TBD"}
+                    timeAndPlace={"12:00 V1"}
                     noTicket={false}
                     temporaryText="Sign-up kommer senare" 
                     info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
