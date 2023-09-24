@@ -6,6 +6,7 @@ import DateTimeDisplay from './DateTimeDisplay';
     return (
       <div>
         <a>
+          <p className={"countdown-title"}>Slutfesten börjar om:</p>
           <table className="time">
             <tr>
               <td className="number"><DateTimeDisplay value={days}/></td>
@@ -28,7 +29,7 @@ import DateTimeDisplay from './DateTimeDisplay';
 const CountdownTimer = ({ targetDate }) => {
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
 
-  if (days + hours + minutes + seconds == 0) {
+  if (days + hours + minutes + seconds === 0) {
     return (
         <ShowCounter
           days={0}

@@ -11,7 +11,7 @@ import CompanyInfo from "./CompanyInfo";
 import History from "./History";
 
 function Home() {
-  const DATUM = new Date("2023-09-24T22:00:00Z");
+  const DATUM = new Date("2023-10-14T15:00:00Z");
 
     return (
         <div className={"main"}>
