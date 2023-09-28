@@ -116,8 +116,7 @@ const Timeline = () => {
                     date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
                     timeAndPlace={"17:00 Q1"}
-                    temporaryText="Sign-up kommer senare" 
-                    noTicket={false}
+                    noTicket={true}
                     info={"Vem älskar inte en biokväll? Koppla av efter plugget med en riktigt grym rulle från 83! Det blir dessutom en double feature-visning med en film om någon jämngammal med sektionen! QN och dJubileet kommer att bjuda på snacks i äkta bio-anda.<br></br>" + 
                     "Vi kommer att börja med den första filmen klockan 18:00 i Q1, så ni som vill käka innan hinner göra det! Man är välkommen att mingla i lobbyn utanför från 17:30. Den andra filmen drar igång 20:15 så ni som inte kan vara där 18:00 har ändå någonting att se fram emot."}
                     fbLink={"https://www.facebook.com/events/200407242835404/"}
