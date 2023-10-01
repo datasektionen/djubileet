@@ -2,17 +2,18 @@ import React, {useState} from "react";
 
 function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "", interestLink = "", info = "",
                         temporaryText = "", ticketText = "Biljetter", ticketUnreleased = false, ticketSoldOut = false, noTicket = false,
-                        dateTime, alcoholEvent = false, image = "", imageTopMargin = 0} :
+                        dateTime, alcoholEvent = false, image = "", imageTopMargin = 0, showIfPassed = true, showHR = true} :
                         {date : string, title : string, timeAndPlace? : string, fbLink? : string, ticketLink? : string, interestLink? : string, info? : string,
                             ticketUnreleased? : boolean, ticketSoldOut? : boolean, noTicket? : boolean, dateTime : Date,
-                            alcoholEvent? : boolean, temporaryText? : string, ticketText? : string, image? : string, imageTopMargin? : number} ) {
+                            alcoholEvent? : boolean, temporaryText? : string, ticketText? : string, image? : string, imageTopMargin? : number, showIfPassed? : boolean, showHR? : boolean} ) {
 
     const [expanded, setExpanded] = useState(false);
 
+
     const today = new Date();
     let hasHappened : boolean = !(dateTime.getFullYear() > today.getFullYear() ||
-        (dateTime.getMonth() > today.getMonth() && dateTime.getFullYear() == today.getFullYear()) ||
-        (dateTime.getDay() > today.getDay() && dateTime.getMonth() == today.getMonth() && dateTime.getFullYear() == today.getFullYear()));
+        (dateTime.getMonth() > today.getMonth() + 1 && dateTime.getFullYear() == today.getFullYear()) ||
+        (dateTime.getDay() > today.getDay() + 1 && dateTime.getMonth() == today.getMonth() + 1 && dateTime.getFullYear() == today.getFullYear()));
 
     let imgStyle: React.CSSProperties = {
         marginTop: imageTopMargin,
@@ -22,9 +23,13 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
     if(image==""){
         imgStyle.display = "none";
     }
-
+    console.log(dateTime.getMonth());
+    console.log(today);
+    console.log(today.getDay());
+    console.log(hasHappened);
 
     return (
+        <div hidden={hasHappened && !showIfPassed}>
         <div className={hasHappened?"disabled-event-row":"event-row"}  onClick={() => setExpanded(!expanded)}>
             <td className={"event-date"}>
                 <table className={"event-date-row"}>
@@ -72,6 +77,8 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
 
             <div hidden={!expanded} className={"event-additional-info"} dangerouslySetInnerHTML={{__html: info===""?"Mer info kommer!":info}}>
             </div>
+        </div>
+            <hr hidden={!showHR}/>
         </div>
     );
 }
