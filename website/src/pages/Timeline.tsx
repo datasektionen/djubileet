@@ -258,11 +258,23 @@ const Timeline = () => {
                     title={"Slutfesten"}
                     fbLink={"https://www.dsekt.se/djub-slutfest-web"}
 
-                    timeAndPlace={"Nymble"}
+                    timeAndPlace={"16:00 Nymble"}
                     info={"Efter att vi har uppmärksammat sektionens 40-årsdag i två hela veckor, så ser vi på slutfesten till att allting slutar med en ordentlig smäll!<br/><br/>" +
   	"dJubileets slutfest är utan tvekan en av de största händelserna på hela året, och är det bästa tillfället sektionen har att erbjuda för gamla och nya kursare att lära känna varandra.<br/><br/>" + "Exakt vad som kommer hända under kvällen är fortfarande hemligstämplat av nöjesanledningar, men en sak är säker. Det kommer bli en kväll som är svår att överträffa – åtminstone tills det att sektionen fyller 45 år!<br/><br/>" +
 "Glöm inte att dricka varannan vatten, undvika att vakna i skogen, och att ha en riktigt rolig kväll!<br/><br/>" + "Tagga till så ses vi på slutfesten!<br/></br>"}
                     ticketLink={"https://dsekt.se/biljetter-slutfest"}
+                    alcoholEvent={true}
+                    showIfPassed={showPassed}
+                />
+                <EventEntry
+                    date={"14 oktober"}
+                    dateTime={new Date(2023, 10, 14)}
+                    title={"Slutfesten - Efterkör"}
+                    fbLink={"https://www.dsekt.se/djub-slutfest-web"}
+
+                    timeAndPlace={"21:00 Nymble"}
+                    info={"Även om du inte har fått en biljett till slutfestens sittning kan du fortfarande komma till det fetaste efterköret det här decenniet!"}
+                    ticketLink={"https://slutfesten.djubileet.se/"}
                     alcoholEvent={true}
                     showHR={false}
                     showIfPassed={showPassed}
