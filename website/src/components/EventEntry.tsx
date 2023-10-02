@@ -13,7 +13,7 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
     const today = new Date();
     let hasHappened : boolean = !(dateTime.getFullYear() > today.getFullYear() ||
         (dateTime.getMonth() > today.getMonth() + 1 && dateTime.getFullYear() == today.getFullYear()) ||
-        (dateTime.getDate() > today.getDate() && dateTime.getMonth() == today.getMonth() + 1 && dateTime.getFullYear() == today.getFullYear()));
+        (dateTime.getDate() > today.getDate() - 1 && dateTime.getMonth() == today.getMonth() + 1 && dateTime.getFullYear() == today.getFullYear()));
 
     let imgStyle: React.CSSProperties = {
         marginTop: imageTopMargin,
