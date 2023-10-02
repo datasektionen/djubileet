@@ -175,7 +175,7 @@ const Timeline = () => {
                     timeAndPlace={"17:00 META"}
                     noTicket={true}
                     fbLink={"https://www.facebook.com/events/295533949843241"}
-                    info={"Kom och häng i META! Under det här METAhänget så kommer DESC att anordna ett (för tillfället) hemligt event som vi lovar att ni inte vill missa! Ni kommer såklart utöver det spela brädspel, hänga med folk, och fortsätta att klä dJu(be)lgranen. Förvänta er en spontan timme av Ultima Online!"}
+                    info={"Kom och häng i META! Under det här METAhänget så kommer DESC att anordna ett (för tillfället) hemligt event som vi lovar att ni inte vill missa! Ni kommer såklart utöver det spela brädspel, hänga med folk, och fortsätta att klä dJu(be)lgranen och lägga sektionens egna r/place pärlplatta. Förvänta er en spontan timme av Ultima Online!"}
                     showIfPassed={showPassed}
                 />
                 <EventEntry
