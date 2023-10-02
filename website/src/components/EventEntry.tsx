@@ -13,7 +13,7 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
     const today = new Date();
     let hasHappened : boolean = !(dateTime.getFullYear() > today.getFullYear() ||
         (dateTime.getMonth() > today.getMonth() + 1 && dateTime.getFullYear() == today.getFullYear()) ||
-        (dateTime.getDay() > today.getDay() + 1 && dateTime.getMonth() == today.getMonth() + 1 && dateTime.getFullYear() == today.getFullYear()));
+        (dateTime.getDate() > today.getDate() && dateTime.getMonth() == today.getMonth() + 1 && dateTime.getFullYear() == today.getFullYear()));
 
     let imgStyle: React.CSSProperties = {
         marginTop: imageTopMargin,
@@ -23,10 +23,6 @@ function EventEntry({date, title, timeAndPlace = "", fbLink = "", ticketLink = "
     if(image==""){
         imgStyle.display = "none";
     }
-    console.log(dateTime.getMonth());
-    console.log(today);
-    console.log(today.getDay());
-    console.log(hasHappened);
 
     return (
         <div hidden={hasHappened && !showIfPassed}>
