@@ -226,8 +226,12 @@ const Timeline = () => {
                     dateTime={new Date(2023, 10, 9)}
                     timeAndPlace={"12:00 V1"}
                     noTicket={false}
-                    temporaryText="Sign-up kommer senare" 
-                    info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
+                    ticketText={"Sign-up"}
+                    ticketLink={"https://forms.gle/k32x9EKoSLzmqQxu5"}
+                    info={"dJubileet och D-Dagen är stolta att få presentera vår andra lunchföreläsning tillsammans! <br/> <br/>" +
+                    "Saab är en del av Sveriges totalförsvar och verkar för allas säkerhet. Vi på Saab är en del av så mycket mer än vad du tror. En del av att du kan höja din röst och leva som du vill. Genom att tillverka världsledande produkter till försvaret är vi en del av att skapa tryggare samhällen och förutsättningar för hållbar utveckling.<br/>" +
+                    "Saab är världsledande i flera discipliner inom militära och civila produkter och lösningar.<br/>" +
+                    "Ett resultat av långsiktigt arbete med innovation och goda samarbeten. Samtidigt innebär vår verksamhet ett stort ansvar. <br/> <br/> SAAB bjuder självklart på lunchen!"}
                     image={sab}
                     showIfPassed={showPassed}
                 />
