@@ -119,7 +119,7 @@ const Timeline = () => {
                     title={"Bio på campus"}
                     date={"28 september"}
                     dateTime={new Date(2023, 9, 28)}
-                    timeAndPlace={"17:00 Q1"}
+                    timeAndPlace={"17:30 Q1"}
                     noTicket={true}
                     info={"Vem älskar inte en biokväll? Koppla av efter plugget med en riktigt grym rulle från 83! Det blir dessutom en double feature-visning med en film om någon jämngammal med sektionen! QN och dJubileet kommer att bjuda på snacks i äkta bio-anda.<br></br>" + 
                     "Vi kommer att börja med den första filmen klockan 18:00 i Q1, så ni som vill käka innan hinner göra det! Man är välkommen att mingla i lobbyn utanför från 17:30. Den andra filmen drar igång 20:15 så ni som inte kan vara där 18:00 har ändå någonting att se fram emot."}
@@ -231,7 +231,7 @@ const Timeline = () => {
                     info={"dJubileet och D-Dagen är stolta att få presentera vår andra lunchföreläsning tillsammans! <br/> <br/>" +
                     "Saab är en del av Sveriges totalförsvar och verkar för allas säkerhet. Vi på Saab är en del av så mycket mer än vad du tror. En del av att du kan höja din röst och leva som du vill. Genom att tillverka världsledande produkter till försvaret är vi en del av att skapa tryggare samhällen och förutsättningar för hållbar utveckling.<br/>" +
                     "Saab är världsledande i flera discipliner inom militära och civila produkter och lösningar.<br/>" +
-                    "Ett resultat av långsiktigt arbete med innovation och goda samarbeten. Samtidigt innebär vår verksamhet ett stort ansvar. <br/> <br/> SAAB bjuder självklart på lunchen!"}
+                    "Ett resultat av långsiktigt arbete med innovation och goda samarbeten. Samtidigt innebär vår verksamhet ett stort ansvar. <br/> <br/> SAAB bjuder självklart på mat!"}
                     image={sab}
                     showIfPassed={showPassed}
                 />
@@ -241,8 +241,16 @@ const Timeline = () => {
                     dateTime={new Date(2023, 10, 9)}
                     timeAndPlace={"12:00 V1"}
                     noTicket={false}
-                    temporaryText="Sign-up kommer senare" 
-                    info={"Ni kommer att bjudas på lunch och få träffa supertrevliga företagsrepresentanter."}
+                    ticketText={"Sign-Up"}
+                    ticketLink={"https://forms.gle/XFeoVmXKMUDTqjBw6"}
+                    info={"dJubileet och D-Dagen är stolta att få presentera vår tredje lunchföreläsning tillsammans!<br/><br/>" +
+                    "Funderar du på:<br/><br/>" +
+                    "Vad är viktigast för dig när du går ut i arbetslivet - högsta möjliga lön eller att skapa mesta möjliga nytta för samhället samtidigt som du har bra lön?<br/>" +
+                    "Hur känner du igen en bra arbetsgivare? Går det att välja rätt chef eller blir det som det blir?<br/>" +
+                    "Hur blir du en skicklig och uppskattad medarbetare?<br/>" +
+                    "Hur ser du till att få bästa möjliga utveckling när det gäller kompetens, lön och karriär och hur håller du balansen mellan arbete och livet utanför jobbet?<br/><br/>" +
+                    "Under den här lunchföreläsningen delar Daniel Hederstedt med sig av världsledande forskning och 25 års erfarenhet av arbete och ledarskap. Daniel är ingenjör från KTH, tidigare konsult och numera enhetschef på Arbetsförmedlingen IT.<br/>" +
+                    "Arbetsförmedlingen bjuder självklart på mat!"}
                     image={af}
                     showIfPassed={showPassed}
                 />
