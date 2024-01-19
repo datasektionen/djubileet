@@ -11,7 +11,7 @@ import CompanyInfo from "./CompanyInfo";
 import History from "./History";
 
 function Home() {
-  const DATUM = new Date("2023-10-14T15:00:00Z");
+  const DATUM = new Date("2028-10-14T00:00:00Z");
 
     return (
         <div className={"main"}>
@@ -23,8 +23,8 @@ function Home() {
                 <img className={"landing-logo"} src={animatedLogo} alt={"dJubileet Logo"}/>
 
                 <div className="bday">
-                    <p>Konglig Datasektionens</p>
-                    <p>40-årsjubileum</p>
+                    <p>Tack till alla som deltog i Konglig Datasektionens 40-årsjubileum!</p>
+                    <p>Vi ses igen på 45års jubileumet</p>
                 </div>
                 <div className="landing-countdown">
                     <CountdownTimer targetDate={DATUM}/>

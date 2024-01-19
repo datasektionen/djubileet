@@ -6,7 +6,7 @@ import DateTimeDisplay from './DateTimeDisplay';
     return (
       <div>
         <a>
-          <p className={"countdown-title"}>Slutfesten börjar om:</p>
+          <p className={"countdown-title"}>Nästa dJubileum börjar om:</p>
           <table className="time">
             <tr>
               <td className="number"><DateTimeDisplay value={days}/></td>
