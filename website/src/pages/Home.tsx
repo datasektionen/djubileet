@@ -24,7 +24,7 @@ function Home() {
 
                 <div className="bday">
                     <p>Tack till alla som deltog i Konglig Datasektionens 40-årsjubileum!</p>
-                    <p>Vi ses igen på 45års jubileumet</p>
+                    <p>Vi ses igen på 45-års jubileumet</p>
                 </div>
                 <div className="landing-countdown">
                     <CountdownTimer targetDate={DATUM}/>
