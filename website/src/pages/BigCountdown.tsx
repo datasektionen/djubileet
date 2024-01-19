@@ -5,7 +5,7 @@ import '../css/BigCoundown.css';
 import CountdownTimer from '../components/CountdownTimer';
 
 function BigCountdown() {
-    const DATUM = new Date("2023-09-24T23:00:00Z");
+    const DATUM = new Date("2028-10-14T15:00:00Z");
 
     return (
         <div className="Wrapper" >
